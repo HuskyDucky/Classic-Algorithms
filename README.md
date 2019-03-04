@@ -1,19 +1,9 @@
 # Classic-Algorithms
 
-Binary-tree
+Binary-tree - BFS             - Breadth First Search
+Binary-tree - DFS Interative  - Depth First Search
+Dynamic Programming - Kadene
+Dynamic Programming - Knapsack
+Dynamic Programming - Longest Common Subsequence      - LCS
+Dynamic Programming - Longest Palindromic Subsequence - LPS
 
-  BFS             - Breadth First Search
-  
-  DFS Interative  - Depth First Search
-  
-
-Dynamic Programming
-
-  Kadene
-  
-  Knapsack
-  
-  Longest Common Subsequence      - LCS
-  
-  Longest Palindromic Subsequence - LPS
-  
