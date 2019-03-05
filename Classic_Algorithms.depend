@@ -1,0 +1,274 @@
+# depslib dependency file v1.0
+1492429811 source:/home/administrator/Desktop/c++/1TESTFAST/main.cpp
+
+1533803460 am>
+
+1533803460 >
+
+1492526522 filesystem/operations.hpp>
+
+1533803460 
+
+1530688537 source:/home/administrator/Desktop/c++/1TESTFAST/1TESTFAST.cpp
+
+1533803460 b>
+
+1533803460 g>
+
+1533803460 p>
+
+1533803460 m>
+
+1533803460 fo>
+
+1533803460 al>
+
+1533803460 thm>
+
+1533803460 onal>
+
+1533803460 _view>
+
+1533803460 red_map>
+
+1512541731 mental/filesystem>
+
+1492526522 source:/home/administrator/Desktop/c++/1TESTFAST/DateDirectory.cpp
+
+1497414642 source:/home/administrator/Desktop/ProjectS/lib/Reader/Reader_Func_DownloadSiteContent.cpp
+
+1497414642 ept>
+
+1497414642 url.h>
+
+1502032407 source:/home/administrator/Desktop/ProjectS/lib/General/ZuzName.cpp
+
+1512899323 lib.h"
+
+1512541731 /home/administrator/Desktop/ProjectS/lib/Zuzlib.h
+
+1512541731 ion_variable>
+
+1512026096 source:/home/administrator/Desktop/ProjectS/lib/General/ItsBadIamDead.cpp
+
+1512026096 IamDead.h"
+
+1512026289 /home/administrator/Desktop/ProjectS/lib/General/ItsBadIamDead.h
+
+1511245931 ker/Talker.h"
+
+1511245827 /home/administrator/Desktop/ProjectS/lib/Talker/Talker.h
+
+1511245931 eral/DM/Directory_Manage.h"
+
+1511245981 /home/administrator/Desktop/ProjectS/lib/General/DM/Directory_Manage.h
+
+1511245981 h.h>
+
+1511245981 at.h>
+
+1511245981 LogExceptions/LogExceptions.h"
+
+1511245981 Zuzlib.h"
+
+1511245931 /home/administrator/Desktop/ProjectS/lib/LogExceptions/LogExceptions.h
+
+1511245931 algorithm/string.hpp>
+
+1512899331 source:/home/administrator/Desktop/ProjectS/lib/General/Ask.cpp
+
+1512899323 /home/administrator/Desktop/ProjectS/lib/General/Ask.h
+
+1533803460 source:/home/administrator/Desktop/c++/1TESTFAST1/1TESTFAST.cpp
+
+1533803460 red_set>
+
+1533803460 stem>
+
+1539715157 source:/home/administrator/Desktop/c++/0_TESTFAST/1TESTFAST.cpp
+	<any>
+	<set>
+	<map>
+	<mutex>
+	<ctime>
+	<cctype>
+	<cstdlib>
+	<atomic>
+	<string>
+	<vector>
+	<chrono>
+	<thread>
+	<cstring>
+	<iomanip>
+	<fstream>
+	<typeinfo>
+	<iostream>
+	<optional>
+	<algorithm>
+	<functional>
+	<string_view>
+	<unordered_set>
+	<unordered_map>
+	<filesystem>
+
+1549659027 source:/home/administrator/Desktop/c++/Dijkastra Algorithm/Dijkastra.cpp
+	"Dijkastra.h"
+
+1549659831 /home/administrator/Desktop/c++/Dijkastra Algorithm/Dijkastra.h
+	<iostream>
+	<vector>
+	<queue>
+	<list>
+
+1549658790 source:/home/administrator/Desktop/c++/Dijkastra Algorithm/TESTDijkastra.cpp
+	<iostream>
+	"Dijkastra.h"
+
+1549659027 source:/home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/Dijkastra.cpp
+	"Dijkastra.h"
+
+1549659831 /home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/Dijkastra.h
+	<iostream>
+	<vector>
+	<queue>
+	<list>
+
+1549660043 source:/home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/TESTDijkastra.cpp
+	<iostream>
+	"Dijkastra.h"
+
+1551701854 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS.cpp
+	"DFS.h"
+
+1551701840 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS.h
+
+1551703583 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/TEST_DFS.cpp
+	<iostream>
+	"DFS.h"
+	<list>
+	<vector>
+	<algorithm>
+
+1551708504 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interative.cpp
+	"DFS_Interative.h"
+
+1551707361 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interative.h
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<algorithm>
+
+1551708867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/Main.cpp
+	"DFS_Interactive.h"
+
+1551708847 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.h
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<algorithm>
+
+1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
+	"DFS_Interactive.h"
+
+1551736692 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+
+1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Run_DFS_Interactive.cpp
+	"DFS_Interactive.h"
+
+1551717310 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/DFS_Interactive.h
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<algorithm>
+
+1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/DFS_Interactive.cpp
+	"DFS_Interactive.h"
+
+1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BFS.cpp
+	"BFS.h"
+
+1551720499 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BFS.h
+	<iostream>
+	<list>
+	<queue>
+	<vector>
+
+1551718296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Run_BFS.cpp
+	"BFS.h"
+
+1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.cpp
+	"BFS.h"
+
+1551722728 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.h
+	<iostream>
+	<list>
+	<queue>
+	<vector>
+
+1551722715 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS_run.cpp
+	"BFS.h"
+
+1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.cpp
+	"DFS_Interactive.h"
+
+1551722735 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.h
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<algorithm>
+
+1551722715 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive_run.cpp
+	"DFS_Interactive.h"
+
+1551722471 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Binary_Tree.cpp
+
+1551742736 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Dynamic_Programming.cpp
+
+1551724421 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.cpp
+	"Kadane.h"
+
+1551723768 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
+	"Kadane.h"
+
+1551724393 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.h
+	<iostream>
+	<vector>
+
+1551736867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
+	"Knapsack.h"
+
+1551736867 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.h
+	<iostream>
+	<vector>
+
+1551740311 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.cpp
+	"Knapsack.h"
+
+1551740958 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common.cpp
+	"LongestSubsequence_Common.h"
+
+1551740958 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<string_view>
+
+1551741707 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common_run.cpp
+	"LongestSubsequence_Common.h"
+
+1551743081 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
+	"LongestSubsequence_Palindromic.h"
+
+1551741672 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<string_view>
+
+1551743379 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.cpp
+	"LongestSubsequence_Palindromic.h"
+

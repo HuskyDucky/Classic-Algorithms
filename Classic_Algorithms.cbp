@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Classic Algorithms" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="~/Desktop/bin/Classic_Algorithms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="~/Desktop/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++1z" />
+					<Add option="-m64" />
+					<Add option="-fopenmp" />
+					<Add directory="../0_TESTFAST (copy 1)" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add option="-lstdc++fs" />
+					<Add option="-lcurl" />
+					<Add option="-pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Binary_Tree/BFS.cpp" />
+		<Unit filename="Binary_Tree/BFS.h" />
+		<Unit filename="Binary_Tree/BFS_example.gif" />
+		<Unit filename="Binary_Tree/BFS_run.cpp" />
+		<Unit filename="Binary_Tree/BinaryTree to test DFS and BFS.jpg" />
+		<Unit filename="Binary_Tree/Binary_Tree.cpp" />
+		<Unit filename="Binary_Tree/DFS_Interactive.cpp" />
+		<Unit filename="Binary_Tree/DFS_Interactive.h" />
+		<Unit filename="Binary_Tree/DFS_Interactive_run.cpp" />
+		<Unit filename="Binary_Tree/DFS_example.png" />
+		<Unit filename="Dynamic_Programming/Dynamic_Programming.cpp" />
+		<Unit filename="Dynamic_Programming/Kadane.cpp" />
+		<Unit filename="Dynamic_Programming/Kadane.h" />
+		<Unit filename="Dynamic_Programming/Kadane_run.cpp" />
+		<Unit filename="Dynamic_Programming/Knapsack.cpp" />
+		<Unit filename="Dynamic_Programming/Knapsack.h" />
+		<Unit filename="Dynamic_Programming/Knapsack_run.cpp" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Common.cpp" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Common.h" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Common_run.cpp" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.cpp" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.h" />
+		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp" />
+		<Unit filename="Main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
