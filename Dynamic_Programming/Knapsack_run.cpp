@@ -7,7 +7,7 @@
 
 #include "Knapsack.h"
 
-void Run_Knapsack_0_1() {
+void Run_Dynamic_Programming_Knapsack_0_1() {
 
     cout << "\n\t\t\t\tDynamic Programming - Knapsack\n"
          << "\n\nMaximum Benefits expected 26";
@@ -21,5 +21,4 @@ void Run_Knapsack_0_1() {
                                 {9, 10}};
 
     cout << "\nResult: " << Knapsack(maxWeight, Elements);
-    cin.get();
 }

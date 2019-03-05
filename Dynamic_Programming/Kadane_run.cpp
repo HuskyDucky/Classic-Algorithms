@@ -7,7 +7,7 @@
 
 #include "Kadane.h"
 
-void Run_Kadane() {
+void Run_Dynamic_Programming_Kadane() {
 
     cout << "\n\t\t\t\tDynamic Programming - Kadane\n"
          << "\n\nMaximum sum expected = 6";
@@ -15,6 +15,4 @@ void Run_Kadane() {
     vector<int32_t> Values {-2, 5, -1, 2, -3};
 
     cout << "\nResult: " << Kadane(Values);
-
-    cin.get();
 }
