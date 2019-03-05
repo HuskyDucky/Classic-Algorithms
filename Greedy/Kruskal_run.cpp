@@ -9,7 +9,7 @@
 
 #include <cstring>
 
-void Run_Kruskal() {
+void Run_Greedy_Kruskal() {
 
     cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Kruskal\n"
          << "\n\nResult expected:"
@@ -43,6 +43,4 @@ void Run_Kruskal() {
         cout << IIt.get().Vertex_1() << " -> "
              << IIt.get().Vertex_2() << " Weight: "
              << IIt.get().Weight() << '\n';
-
-    cin.get();
 }
