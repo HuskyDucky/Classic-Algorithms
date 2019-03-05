@@ -1,5 +1,5 @@
 /**
-    File    : Main.cpp
+    File    : Dynamic_Programming.cpp
     Author  : Menashe Rosemberg
 
     Dynamic Programming

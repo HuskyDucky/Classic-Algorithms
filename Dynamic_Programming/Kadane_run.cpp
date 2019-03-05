@@ -9,7 +9,7 @@
 
 void Run_Kadane() {
 
-    cout << "\n\t\t\t\tKadane\n"
+    cout << "\n\t\t\t\tDynamic Programming - Kadane\n"
          << "\n\nMaximum sum expected = 6";
 
     vector<int32_t> Values {-2, 5, -1, 2, -3};

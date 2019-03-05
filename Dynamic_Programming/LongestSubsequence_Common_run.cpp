@@ -9,7 +9,7 @@
 
 void Run_LCS() {
 
-    cout << "\n\t\t\t\tLongest Common Subsequence - LCS\n"
+    cout << "\n\t\t\t\tDynamic Programming - Longest Common Subsequence - LCS\n"
          << "\n\nMaximum Length expected 3";
 
     cout << "\nLength: " << LCS("ABCB", "BDCAB");

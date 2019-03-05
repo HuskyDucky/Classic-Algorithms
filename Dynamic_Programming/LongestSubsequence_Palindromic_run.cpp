@@ -9,7 +9,7 @@
 
 void Run_LPS() {
 
-    cout << "\n\t\t\t\tLongest Palindromic Subsequence - LPS\n"
+    cout << "\n\t\t\t\tDynamic Programming - Longest Palindromic Subsequence - LPS\n"
          << "\n\nMaximum Length expected 5";
 
     cout << "\nLength: " << LPS("ATCATA");

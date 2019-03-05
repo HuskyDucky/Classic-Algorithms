@@ -9,7 +9,7 @@
 
 void Run_Knapsack_0_1() {
 
-    cout << "\n\t\t\t\tKnapsack\n"
+    cout << "\n\t\t\t\tDynamic Programming - Knapsack\n"
          << "\n\nMaximum Benefits expected 26";
 
     uint16_t maxWeight = 20;
