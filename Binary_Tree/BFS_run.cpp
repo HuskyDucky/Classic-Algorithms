@@ -7,7 +7,7 @@
 
 #include "BFS.h"
 
-void Run_BFS() {
+void Run_BinaryTreeSearch_BFS() {
 
     cout << "\n\t\t\t\tBinary Tree Search - BFS"
          << "\n\nExpected 0, 1, 2, 3, 4, 5, 6, 7";
@@ -22,6 +22,4 @@ void Run_BFS() {
     bfs.AddEdge(6, 7);
 
     bfs.bfs(0);
-
-    cin.get();
 }

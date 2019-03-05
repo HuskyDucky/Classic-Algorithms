@@ -7,7 +7,7 @@
 
 #include "DFS_Interactive.h"
 
-void Run_DFS_Interactive() {
+void Run_BinaryTreeSearch_DFS_Interactive() {
 
     cout << "\n\t\t\t\tBinary TRee Search - DFS Interactive\n"
          << "\n\nExpected 0, 1, 3, 4, 2, 5, 6, 7";
@@ -22,6 +22,4 @@ void Run_DFS_Interactive() {
     DFSInt.AddEdge(6, 7);
 
     DFSInt.dfs(0);
-
-    cin.get();
 }
