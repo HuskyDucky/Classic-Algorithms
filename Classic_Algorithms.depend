@@ -172,7 +172,7 @@
 1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
 	"DFS_Interactive.h"
 
-1551736692 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1551774597 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 
 1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Run_DFS_Interactive.cpp
 	"DFS_Interactive.h"
@@ -226,19 +226,19 @@
 
 1551722471 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Binary_Tree.cpp
 
-1551742736 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Dynamic_Programming.cpp
+1551774669 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Dynamic_Programming.cpp
 
 1551724421 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.cpp
 	"Kadane.h"
 
-1551723768 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
+1551774296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
 	"Kadane.h"
 
 1551724393 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.h
 	<iostream>
 	<vector>
 
-1551736867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
+1551774296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
 	"Knapsack.h"
 
 1551736867 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.h
@@ -257,10 +257,10 @@
 	<algorithm>
 	<string_view>
 
-1551741707 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common_run.cpp
+1551774296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common_run.cpp
 	"LongestSubsequence_Common.h"
 
-1551743081 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
+1551774296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
 	"LongestSubsequence_Palindromic.h"
 
 1551741672 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.h
@@ -271,4 +271,56 @@
 
 1551743379 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.cpp
 	"LongestSubsequence_Palindromic.h"
+
+1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS.cpp
+	"BFS.h"
+
+1551722728 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS.h
+	<iostream>
+	<list>
+	<queue>
+	<vector>
+
+1551774238 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS_run.cpp
+	"BFS.h"
+
+1551722471 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/Binary_Tree.cpp
+
+1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive.cpp
+	"DFS_Interactive.h"
+
+1551722735 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive.h
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<algorithm>
+
+1551774248 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive_run.cpp
+	"DFS_Interactive.h"
+
+1551774700 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BinaryTreeSearch.cpp
+
+1551774783 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Greedy.cpp
+
+1551803202 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.cpp
+	"Kruskal.h"
+	"Kruskal_SubSet.h"
+
+1551803051 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.h
+	<iostream>
+	<set>
+	<vector>
+	<functional>
+
+1551803483 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_run.cpp
+	"Kruskal.h"
+	<cstring>
+
+1551803103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.h
+	"Kruskal.h"
+	<cstring>
+
+1551801750 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.cpp
+	"Kruskal_SubSet.h"
 
