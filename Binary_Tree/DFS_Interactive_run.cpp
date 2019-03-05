@@ -9,7 +9,7 @@
 
 void Run_DFS_Interactive() {
 
-    cout << "\n\t\t\t\tDFS Interactive\n"
+    cout << "\n\t\t\t\tBinary TRee Search - DFS Interactive\n"
          << "\n\nExpected 0, 1, 3, 4, 2, 5, 6, 7";
 
     Graph_DFS_Interactive DFSInt(8);

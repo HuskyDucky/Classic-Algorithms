@@ -9,7 +9,7 @@
 
 void Run_BFS() {
 
-    cout << "\n\t\t\t\tBFS"
+    cout << "\n\t\t\t\tBinary Tree Search - BFS"
          << "\n\nExpected 0, 1, 2, 3, 4, 5, 6, 7";
 
     Graph_BFS bfs(8);
