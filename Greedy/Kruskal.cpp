@@ -2,21 +2,10 @@
     File    : Kruskal.cpp
     Author  : Menashe Rosemberg
 
-    Greedy - Minimal Spanning Tree - Kruskal
+    Greedy - Minimum Spanning Tree - Kruskal
 **/
 #include "Kruskal.h"
 #include "Kruskal_SubSet.h"
-
-VertexType Edge::Vertex_1() const {
-           return this->vertex_1; }
-
-VertexType Edge::Vertex_2() const {
-           return this->vertex_2; }
-
-uint16_t Edge::Weight() const {
-         return this->weight; }
-
-
 
 Kruskal::Kruskal(vector<Edge>& edges) : Edges(edges) {
     set<VertexType> TMPVertexList;

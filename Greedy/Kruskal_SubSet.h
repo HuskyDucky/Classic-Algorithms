@@ -2,7 +2,7 @@
     File    : Kruskal_Kruskal_SubSet.h
     Author  : Menashe Rosemberg
 
-    Greedy - Minimal Spanning Tree - Kruskal SubSet
+    Greedy - Minimum Spanning Tree - Kruskal SubSet
 **/
 #ifndef KRUSKAL_SUBSET_H
 #define KRUSKAL_SUBSET_H

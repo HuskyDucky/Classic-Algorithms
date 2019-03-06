@@ -2,12 +2,12 @@
     File    : Kruskal_run.cpp
     Author  : Menashe Rosemberg
 
-    Greedy - Minimal Spanning Tree - Kruskal
+    Greedy - Minimum Spanning Tree - Kruskal
 **/
+#include <iostream>
 
+#include "Edge.h"
 #include "Kruskal.h"
-
-#include <cstring>
 
 void Run_Greedy_Kruskal() {
 
@@ -21,19 +21,19 @@ void Run_Greedy_Kruskal() {
          << "\n4 -> 6 WeightL 9"
          << "\n\nResult:\n";
 
-    vector<Edge> ListOfEdges;
-    //                       O  D  W
-    ListOfEdges.emplace_back(0, 1, 7);
-    ListOfEdges.emplace_back(0, 3, 5);
-    ListOfEdges.emplace_back(1, 2, 8);
-    ListOfEdges.emplace_back(1, 3, 9);
-    ListOfEdges.emplace_back(1, 4, 7);
-    ListOfEdges.emplace_back(2, 4, 5);
-    ListOfEdges.emplace_back(3, 4, 15);
-    ListOfEdges.emplace_back(3, 5, 6);
-    ListOfEdges.emplace_back(4, 5, 8);
-    ListOfEdges.emplace_back(4, 6, 9);
-    ListOfEdges.emplace_back(5, 6, 11);
+                            // V1 V2 W
+    vector<Edge> ListOfEdges {{0, 1, 7},
+                              {0, 3, 5},
+                              {1, 2, 8},
+                              {1, 3, 9},
+                              {1, 4, 7},
+                              {2, 4, 5},
+                              {3, 4, 15},
+                              {3, 5, 6},
+                              {4, 5, 8},
+                              {4, 6, 9},
+                              {5, 6, 11}
+    };
 
     Kruskal K(ListOfEdges);
 
