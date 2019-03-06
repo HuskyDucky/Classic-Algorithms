@@ -1,6 +1,15 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
+    Created : 2019.03.02            Version: 20190306.1
+
+    Construct a simple question and wait the answer
+
+    Menashe Rosemberg   Israel +972-52-323-0538
+    Copyright(c) 2019      All rights reserved.
+
+    Software distributed under the License is distributed on an "AS IS" BASIS,
+    NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
 
 #include <vector>
@@ -13,6 +22,7 @@ void Run_Dynamic_Programming_Knapsack_0_1();
 void Run_Dynamic_Programming_LCS();
 void Run_Dynamic_Programming_LPS();
 void Run_Greedy_Kruskal();
+void Run_Greedy_Dijkastra();
 
 int main() {
 
@@ -23,7 +33,8 @@ int main() {
                                 "Dynamic Programming- Knapsack 0 1",
                                 "Dynamic Programming- LCS",
                                 "Dynamic Programming- LPS",
-                                "Greedy             - Kruskal",
+                                "Greedy - Minimum Spanning Tree - Kruskal",
+                                "Greedy - Minimum Spanning Tree - Dijkastra",
                                 "Exit"
     };
 
@@ -43,6 +54,7 @@ int main() {
             case 'e': Run_Dynamic_Programming_LCS();          continue;
             case 'f': Run_Dynamic_Programming_LPS();          continue;
             case 'g': Run_Greedy_Kruskal();                   continue;
+            case 'h': Run_Greedy_Dijkastra();                 continue;
         }
         break;
     }

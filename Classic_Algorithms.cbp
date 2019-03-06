@@ -57,6 +57,12 @@
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.cpp" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.h" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp" />
+		<Unit filename="Greedy/Dijkastra.cpp" />
+		<Unit filename="Greedy/Dijkastra.h" />
+		<Unit filename="Greedy/Dijkastra_run.cpp" />
+		<Unit filename="Greedy/Dijkstra.gif" />
+		<Unit filename="Greedy/Edge.cpp" />
+		<Unit filename="Greedy/Edge.h" />
 		<Unit filename="Greedy/Greedy-search-path-example.gif" />
 		<Unit filename="Greedy/Kruskal.cpp" />
 		<Unit filename="Greedy/Kruskal.h" />

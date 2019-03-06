@@ -172,7 +172,7 @@
 1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
 	"DFS_Interactive.h"
 
-1551814129 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1551866722 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"Ask.h"
 
@@ -305,25 +305,26 @@
 
 1551774783 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Greedy.cpp
 
-1551803658 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.cpp
+1551869478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.cpp
 	"Kruskal.h"
 	"Kruskal_SubSet.h"
 
-1551803051 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.h
-	<iostream>
+1551868811 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.h
 	<set>
 	<vector>
 	<functional>
+	"Edge.h"
 
-1551814056 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_run.cpp
+1551867824 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_run.cpp
+	<iostream>
+	"Edge.h"
+	"Kruskal.h"
+
+1551865963 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.h
 	"Kruskal.h"
 	<cstring>
 
-1551803103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.h
-	"Kruskal.h"
-	<cstring>
-
-1551803615 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.cpp
+1551865963 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
 
 1551813684 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Ask.cpp
@@ -335,4 +336,25 @@
 	<sstream>
 	<iostream>
 	<algorithm>
+
+1551873717 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra.cpp
+	"Dijkastra.h"
+
+1551873755 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra.h
+	<set>
+	<list>
+	<queue>
+	<vector>
+	"Edge.h"
+
+1551873771 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra_run.cpp
+	<iostream>
+	"Edge.h"
+	"Dijkastra.h"
+
+1551873717 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Edge.h
+	<cinttypes>
+
+1551871495 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Edge.cpp
+	"Edge.h"
 
