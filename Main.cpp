@@ -23,6 +23,8 @@ void Run_Dynamic_Programming_LCS();
 void Run_Dynamic_Programming_LPS();
 void Run_Greedy_Kruskal();
 void Run_Greedy_Dijkastra();
+void Run_Graph_Floyd();
+void Run_Graph_Cycle_Detection_Brent();
 
 int main() {
 
@@ -33,13 +35,15 @@ int main() {
                                 "Dynamic Programming- Knapsack 0 1",
                                 "Dynamic Programming- LCS",
                                 "Dynamic Programming- LPS",
-                                "Greedy - Minimum Spanning Tree - Kruskal",
-                                "Greedy - Minimum Spanning Tree - Dijkastra",
+                                "Graph - Cycle_Detection - Brent",
+                                "Graph - Minimum Spanning Tree - Floyd Warshall",
+                                "Graph - Greedy - Minimum Spanning Tree - Kruskal",
+                                "Graph - Greedy - Minimum Spanning Tree - Dijkastra",
                                 "Exit"
     };
 
     Ask TheQuestion;
-    TheQuestion << "\n\nChoose your Algorithm:\n";
+    TheQuestion << "\n\nChoose the Algorithm you are leaning:\n";
     TheQuestion.hastheAnswers(move(Options));
     TheQuestion.hastheBehavior(ASK::ANSWARE_BY_LETTERS);
 
@@ -53,8 +57,10 @@ int main() {
             case 'd': Run_Dynamic_Programming_Knapsack_0_1(); continue;
             case 'e': Run_Dynamic_Programming_LCS();          continue;
             case 'f': Run_Dynamic_Programming_LPS();          continue;
-            case 'g': Run_Greedy_Kruskal();                   continue;
-            case 'h': Run_Greedy_Dijkastra();                 continue;
+            case 'g': Run_Graph_Cycle_Detection_Brent();      continue;
+            case 'h': Run_Graph_Floyd();                      continue;
+            case 'i': Run_Greedy_Kruskal();                   continue;
+            case 'j': Run_Greedy_Dijkastra();                 continue;
         }
         break;
     }

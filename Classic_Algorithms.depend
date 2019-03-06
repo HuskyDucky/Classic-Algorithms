@@ -172,7 +172,7 @@
 1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
 	"DFS_Interactive.h"
 
-1551866722 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1551891210 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"Ask.h"
 
@@ -347,7 +347,7 @@
 	<vector>
 	"Edge.h"
 
-1551873771 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra_run.cpp
+1551874353 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra_run.cpp
 	<iostream>
 	"Edge.h"
 	"Dijkastra.h"
@@ -357,4 +357,104 @@
 
 1551871495 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Edge.cpp
 	"Edge.h"
+
+1551874478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent.cpp
+	"Brent.h"
+
+1551874475 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent.h
+
+1551874516 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent_run.cpp
+	<iostream>
+	"Brent.h"
+
+1551881968 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd.cpp
+	"Floyd.h"
+
+1551887980 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd.h
+	<iostream>
+	<cstdio>
+	<limits>
+	<cinttypes>
+
+1551881695 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd_run.cpp
+	<iostream>
+	"Floyd.h"
+
+1551895421 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_Edge.cpp
+	"_Lib_Edge.h"
+
+1551895406 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_Edge.h
+	<cinttypes>
+
+1551890987 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_QuantVertices.cpp
+	"_Lib_QuantVertices.h"
+
+1551890981 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_QuantVertices.h
+	<set>
+	<vector>
+	"_Lib_Edge.h"
+
+1551874478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.cpp
+	"Brent.h"
+
+1551874475 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.h
+
+1551874516 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent_run.cpp
+	<iostream>
+	"Brent.h"
+
+1551895637 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
+	"Dijkastra.h"
+
+1551895641 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
+	<list>
+	<queue>
+	<vector>
+	"_Lib_Edge.h"
+	"_Lib_QuantVertices.h"
+
+1551895492 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra_run.cpp
+	<iostream>
+	"_Lib_Edge.h"
+	"Dijkastra.h"
+
+1551891882 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.cpp
+	"Floyd.h"
+
+1551895930 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
+	<iostream>
+	<cstdio>
+	<limits>
+	<cinttypes>
+	"_Lib_Edge.h"
+	"_Lib_QuantVertices.h"
+
+1551895886 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
+	<iostream>
+	<iomanip>
+	"_Lib_Edge.h"
+	"Floyd.h"
+	<vector>
+
+1551892108 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
+	"Kruskal.h"
+
+1551895684 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
+	<vector>
+	<functional>
+	"_Lib_Edge.h"
+	"_Lib_QuantVertices.h"
+	"Kruskal_SubSet.h"
+
+1551889465 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.h
+	"Kruskal.h"
+	<cstring>
+
+1551889214 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
+	<iostream>
+	"_Lib_Edge.h"
+	"Kruskal.h"
+
+1551888846 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
+	"Kruskal_SubSet.h"
 
