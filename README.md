@@ -5,4 +5,4 @@ Binary-tree: BFS (Breadth First Search), DFS Interative (Depth First Search)
 
 Dynamic Programming: Kadene, Knapsack, Longest Common Subsequence (LCS), Longest Palindromic Subsequence (LPS)
 
-Greedy - Minimum Spanning Tree - Kruskal, Dijkastra
+Graph - Floyd, Kruskal, Dijkastra
