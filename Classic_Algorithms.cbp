@@ -57,9 +57,6 @@
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.cpp" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.h" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp" />
-		<Unit filename="Graphs/Brent.cpp" />
-		<Unit filename="Graphs/Brent.h" />
-		<Unit filename="Graphs/Brent_run.cpp" />
 		<Unit filename="Graphs/Dijkastra.cpp" />
 		<Unit filename="Graphs/Dijkastra.h" />
 		<Unit filename="Graphs/Dijkastra_run.cpp" />
@@ -80,6 +77,9 @@
 		<Unit filename="Graphs/_Lib_QuantVertices.cpp" />
 		<Unit filename="Graphs/_Lib_QuantVertices.h" />
 		<Unit filename="Main.cpp" />
+		<Unit filename="Others/Brent.cpp" />
+		<Unit filename="Others/Brent.h" />
+		<Unit filename="Others/Brent_run.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

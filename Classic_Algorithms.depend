@@ -172,7 +172,7 @@
 1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
 	"DFS_Interactive.h"
 
-1551891210 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1551905564 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"Ask.h"
 
@@ -394,14 +394,19 @@
 	<vector>
 	"_Lib_Edge.h"
 
-1551874478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.cpp
+1551904628 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.cpp
 	"Brent.h"
 
-1551874475 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.h
+1551904628 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.h
 
-1551874516 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent_run.cpp
+1551904231 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent_run.cpp
 	<iostream>
+	<iomanip>
+	"_Lib_Edge.h"
 	"Brent.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
 
 1551895637 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
 	"Dijkastra.h"
@@ -418,18 +423,14 @@
 	"_Lib_Edge.h"
 	"Dijkastra.h"
 
-1551891882 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.cpp
+1551899849 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.cpp
 	"Floyd.h"
 
-1551895930 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
-	<iostream>
-	<cstdio>
-	<limits>
-	<cinttypes>
+1551901667 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
 	"_Lib_Edge.h"
 	"_Lib_QuantVertices.h"
 
-1551895886 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
+1551899267 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
 	<iostream>
 	<iomanip>
 	"_Lib_Edge.h"
@@ -457,4 +458,15 @@
 
 1551888846 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
+
+1551910095 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.cpp
+	"Brent.h"
+
+1551910521 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.h
+	<utility>
+
+1551910592 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent_run.cpp
+	<iostream>
+	<iomanip>
+	"Brent.h"
 
