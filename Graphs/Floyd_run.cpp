@@ -29,13 +29,13 @@ void Run_Graph_Floyd() {
     */
 
     cout << "\n\t\t\t\tGraph - Floyd\n"
-         << "\n\nResult expected: 6"
-         << "\nResult:   0  1  2  3"
-         << "\n          ----------"
-         << "\n        0|0  5  8  9"
-         << "\n        1|   0  3  4"
-         << "\n        2|      0  1"
-         << "\n        3|         0"
+         << "\n\nResult expected:"
+         << "\n   0  1  2  3"
+         << "\n   ----------"
+         << "\n 0|0  5  8  9"
+         << "\n 1|   0  3  4"
+         << "\n 2|      0  1"
+         << "\n 3|         0"
          << "\n\nResult:";
 
                               // O  D  W

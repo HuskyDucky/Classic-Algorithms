@@ -7,12 +7,6 @@
 #ifndef FLOYD_H
 #define FLOYD_H
 
-#include <iostream>
-
-#include<cstdio>
-#include <limits>
-#include <cinttypes>
-
 #include "_Lib_Edge.h"
 #include "_Lib_QuantVertices.h"
 

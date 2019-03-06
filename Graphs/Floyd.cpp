@@ -14,7 +14,7 @@ Floyd::Floyd(const vector<Edge>& edges) : QOfVertices(TotOfVertices(edges)) {
         Weights[CurrEdge.Vertex_1()][CurrEdge.Vertex_2()] = CurrEdge.Weight();
 }
 
-WeightsMatrix Floyd::ProcessFloydWarshall () {
+WeightsMatrix Floyd::ProcessFloydWarshall() {
     for (uint16_t IIt_1 = 0; IIt_1 < QOfVertices; IIt_1++)           // Pick all vertices as source one by one
         for (uint16_t IIt_2 = 0; IIt_2 < QOfVertices; ++IIt_2)       // Pick all vertices as destination for the above picked source
             for (uint16_t IIt_3 = 0; IIt_3 < QOfVertices; IIt_3++)
