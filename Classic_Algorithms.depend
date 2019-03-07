@@ -150,7 +150,7 @@
 1551888846 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
 
-1551964747 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1551977003 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"_lib_/Ask.h"
 
@@ -165,20 +165,21 @@
 	<iomanip>
 	"Brent.h"
 
-1551976668 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
+1551985591 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
 	"Huffman_Compression.h"
 
-1551976660 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
+1551985141 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
 	<iostream>
 	<string>
 	"Huffman_Compression_DataStructure.h"
 
-1551976563 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
+1551985192 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
 	<iostream>
 	"Huffman_Compression.h"
 
-1551976660 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_DataStructure.h
+1551982894 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_DataStructure.h
 	<memory>
 	<vector>
 	<queue>
+	<map>
 
