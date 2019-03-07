@@ -165,19 +165,20 @@
 	<iomanip>
 	"Brent.h"
 
-1551973834 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
+1551976668 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
 	"Huffman_Compression.h"
 
-1551973785 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
+1551976660 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
 	<iostream>
 	<string>
 	"Huffman_Compression_DataStructure.h"
 
-1551973870 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
+1551976563 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
 	<iostream>
 	"Huffman_Compression.h"
 
-1551974284 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_DataStructure.h
+1551976660 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_DataStructure.h
+	<memory>
 	<vector>
 	<queue>
 
