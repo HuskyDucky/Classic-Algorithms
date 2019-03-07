@@ -11,8 +11,8 @@
 #include <queue>
 #include <vector>
 
-#include "_Lib_Edge.h"
-#include "_Lib_QuantVertices.h"
+#include "../_lib_/_Lib_Edge.h"
+#include "../_lib_/_Lib_QuantVertices.cpp"
 
 using namespace std;
 
@@ -24,7 +24,7 @@ struct Dijkastra {
     WeightType ProcessDijcastra(const VertexType Vertice_Ori, const VertexType Vertice_Des);
 
     private:
-        vector<list<BasicEdge>> Edges;
+        vector<list<EdgeWV>> Edges;
         vector<uint8_t> notVisited;
         vector<WeightType> Distancies;
         priority_queue<Distance_Vertice,

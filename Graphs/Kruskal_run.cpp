@@ -6,7 +6,7 @@
 **/
 #include <iostream>
 
-#include "_Lib_Edge.h"
+#include "../_lib_/_Lib_Edge.h"
 #include "Kruskal.h"
 
 void Run_Greedy_Kruskal() {

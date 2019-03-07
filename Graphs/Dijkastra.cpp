@@ -32,9 +32,9 @@ WeightType Dijkastra::ProcessDijcastra(const VertexType Vertice_Ori, const Verte
                     this->notVisited[Vertice] = false;
 
                     for (auto& IIt : this->Edges[Vertice])
-                        if (this->Distancies[IIt.Vertex_1()] > this->Distancies[Vertice] + IIt.Weight()) {
-                            this->Distancies[IIt.Vertex_1()] = this->Distancies[Vertice] + IIt.Weight();
-                            this->PriorityQueue.emplace(this->Distancies[IIt.Vertex_1()], IIt.Vertex_1());
+                        if (this->Distancies[IIt.Vertex()] > this->Distancies[Vertice] + IIt.Weight()) {
+                            this->Distancies[IIt.Vertex()] = this->Distancies[Vertice] + IIt.Weight();
+                            this->PriorityQueue.emplace(this->Distancies[IIt.Vertex()], IIt.Vertex());
                         }
                  }
            }

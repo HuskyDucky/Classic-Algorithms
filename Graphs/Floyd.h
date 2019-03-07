@@ -7,8 +7,8 @@
 #ifndef FLOYD_H
 #define FLOYD_H
 
-#include "_Lib_Edge.h"
-#include "_Lib_QuantVertices.h"
+#include "../_lib_/_Lib_Edge.h"
+#include "../_lib_/_Lib_QuantVertices.cpp"
 
 using namespace std;
 using WeightType = uint16_t;

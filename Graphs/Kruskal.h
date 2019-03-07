@@ -10,8 +10,8 @@
 #include <vector>
 #include <functional>
 
-#include "_Lib_Edge.h"
-#include "_Lib_QuantVertices.h"
+#include "../_lib_/_Lib_Edge.h"
+#include "../_lib_/_Lib_QuantVertices.cpp"
 
 #include "Kruskal_SubSet.h"
 

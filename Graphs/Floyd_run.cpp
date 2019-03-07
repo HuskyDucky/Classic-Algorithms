@@ -9,7 +9,7 @@
 #include <iostream>
 #include <iomanip>
 
-#include "_Lib_Edge.h"
+#include "../_lib_/_Lib_Edge.h"
 #include "Floyd.h"
 
 #include <vector>
