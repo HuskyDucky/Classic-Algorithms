@@ -15,17 +15,26 @@
 using namespace std;
 
 struct Huffman {
-       Huffman(const vector<Data>& DataList);
+       Huffman(const string& toEncode);
 
     void ProcessHuffman();
-    void PrintHuffmanTree();
+    string Decode() const;
+
+    void PrintHashTable() const;
+    string Code() const;
 
     private:
+        string Text;
+
         NodesPrioQueue NodeS;
+        CodeTableHash HashList;
 
+        string HashCode;
+
+        inline void Hashkeeper(shared_ptr<Node> root, string str);
         inline NodeLR Extract_D2Nodes_Lessfreq();
+        inline void SaveHashCode();
 
-        void PrintHuffman(shared_ptr<Node> root, string str);
 };
 
 #endif // HUFFMAN_H

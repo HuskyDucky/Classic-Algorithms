@@ -10,6 +10,7 @@
 #include <memory>
 #include <vector>
 #include <queue>
+#include <map>
 
 using namespace std;
 
@@ -41,5 +42,7 @@ namespace std {
              return (l->freq() > r->freq()); } }; }
 
 using NodesPrioQueue = priority_queue<shared_ptr<Node>, vector<shared_ptr<Node>>>;
+
+using CodeTableHash =  map<char, string>;   //string is the Huffman code
 
 #endif // HUFFMAN_DATASTRUCT_H

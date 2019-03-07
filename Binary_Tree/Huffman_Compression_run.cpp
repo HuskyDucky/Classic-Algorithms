@@ -14,26 +14,25 @@ using namespace std;
 void Run_BinaryTree_Compression_Huffman() {
 
     cout << "\n\t\t\t\tBinary Tree - Compression - Huffman"
-         << "\n\nExpected:\n"
-         << "\nf: 0"
-         << "\nc: 100"
-         << "\nd: 101"
-         << "\na: 1100"
-         << "\nb: 1101"
-         << "\ne: 111"
-"\n\nResult:\n";
+         << "\n\nExpected:"
+         << "\nM: 100"
+         << "\na: 110"
+         << "\ne: 01"
+         << "\nh: 111"
+         << "\nn: 00"
+         << "\ns: 101"
+         << "\n\tCode: 100010011010111101"
+         << "\n\tDecode: Menashe"
+         << "\n\nResult:\n";
 
-    vector<Data> DataList { {'a', 5 },
-                            {'b', 9 },
-                            {'c', 12},
-                            {'d', 13},
-                            {'e', 16},
-                            {'f', 45}
-    };
+    string Test("Menashe");
 
-    Huffman H(DataList);
+    Huffman H(Test);
 
     H.ProcessHuffman();
 
-    H.PrintHuffmanTree();
+    H.PrintHashTable();
+
+    cout << "\n\tCode: " << H.Code();
+    cout << "\n\tDecode: " << H.Decode();
 }

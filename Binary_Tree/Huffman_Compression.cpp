@@ -6,11 +6,16 @@
 **/
 #include "Huffman_Compression.h"
 
+Huffman::Huffman(const string& toEncode) : Text(toEncode) {
+    map<char, uint32_t> LetterFreq;
 
+         string::size_type sSize  = this->Text.size();
+    for (string::size_type letter = 0; letter < sSize; ++letter)
+        LetterFreq[this->Text[letter]]++;
 
-Huffman::Huffman(const vector<Data>& DataList)  {
-    for (uint32_t IIt = 0; IIt < DataList.size(); ++IIt)                           //Create notes to all elements
-        NodeS.emplace(new Node(DataList[IIt].data(), DataList[IIt].freq()));
+    //convert to nodes
+    for (auto& LeFr : LetterFreq)
+        NodeS.emplace(new Node(LeFr.first, LeFr.second));
 }
 
 inline NodeLR Huffman::Extract_D2Nodes_Lessfreq() {
@@ -34,20 +39,56 @@ void Huffman::ProcessHuffman() {
             SubRoot->left = LessFreqNodes.left;
             SubRoot->right= LessFreqNodes.right;
 
-            NodeS.push(SubRoot);
+            this->NodeS.push(SubRoot);
      }
+
+     this->Hashkeeper(NodeS.top(), "");
+
+     this->SaveHashCode();
 }
 
-void Huffman::PrintHuffmanTree() {
-     PrintHuffman(NodeS.top(), "");
+inline void Huffman::Hashkeeper(shared_ptr<Node> root, string str) {
+       if (root) {
+          if (root->data() != '$')
+             this->HashList[root->data()] = str;
+
+          this->Hashkeeper(root->left, str + "0");
+          this->Hashkeeper(root->right, str + "1");
+       }
 }
 
-void Huffman::PrintHuffman(shared_ptr<Node> root, string str) {
-     if (root) {
-        if (root->data() != '$')
-            cout << root->data() << ": " << str << "\n";
+inline void Huffman::SaveHashCode() {
+       for (auto i : this->Text)
+           this->HashCode += this->HashList.find(i)->second;
+}
 
-        this->PrintHuffman(root->left, str + "0");
-        this->PrintHuffman(root->right, str + "1");
-     }
+string Huffman::Code() const {
+       return this->HashCode;
+}
+
+string Huffman::Decode() const {
+       string dcode("");
+
+       shared_ptr<Node> cNode = this->NodeS.top();
+
+            string::size_type sSize  = this->HashCode.size();
+       for (string::size_type letter = 0; letter < sSize; ++letter) {
+
+            cNode = this->HashCode[letter] == '0'?
+                                        cNode->left:
+                                        cNode->right;
+
+            if (cNode->left  == nullptr &&
+                cNode->right == nullptr) {      //leaf found
+                dcode += cNode->data();
+                cNode = this->NodeS.top();
+            }
+       }
+
+    return dcode;
+}
+
+void Huffman::PrintHashTable() const {
+     for (auto& IIt : HashList)
+         cout << IIt.first << ": " << IIt.second << "\n";
 }
