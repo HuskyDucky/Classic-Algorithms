@@ -28,7 +28,7 @@ void Run_Graph_Floyd() {
              3
     */
 
-    cout << "\n\t\t\t\tGraph - Floyd\n"
+    cout << "\n\t\t\t\tGraph - Cycle Detection - Floyd\n"
          << "\n\nResult expected:"
          << "\n   0  1  2  3"
          << "\n   ----------"
