@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190306.1
+    Created : 2019.03.02            Version: 20190307.1
 
     Construct a simple question and wait the answer
 
@@ -13,10 +13,12 @@
 **/
 
 #include <vector>
-#include "Ask.h"
+#include "_lib_/Ask.h"
 
 void Run_Cycle_Detection_in_Linked_List_Brent();
 void Run_BinaryTreeSearch_DFS_Interactive();
+void Run_BinaryTree_Compression_Huffman() {}
+void Run_BinaryTree_Decompression_Huffman() {}
 void Run_BinaryTreeSearch_BFS();
 void Run_Dynamic_Programming_Kadane();
 void Run_Dynamic_Programming_Knapsack_0_1();
@@ -30,6 +32,8 @@ int main() {
 
     std::vector<std::string> Options {
                                 "Cycle_Detection in Linked List- Brent",
+                                "Binary Tree - Compression - Huffman (to be implemented)",
+                                "Binary Tree - Decompression - Huffman (to be implemented)",
                                 "Binary Tree Search - DFS Interactive",
                                 "Binary Tree Search - BFS",
                                 "Dynamic Programming- Kadane",
@@ -51,16 +55,18 @@ int main() {
         char Answer = TheQuestion.wasmade();
 
         switch (Answer) {
-            case 'a': Run_Cycle_Detection_in_Linked_List_Brent();   continue;
-            case 'b': Run_BinaryTreeSearch_DFS_Interactive();       continue;
-            case 'c': Run_BinaryTreeSearch_BFS();                   continue;
-            case 'd': Run_Dynamic_Programming_Kadane();             continue;
-            case 'e': Run_Dynamic_Programming_Knapsack_0_1();       continue;
-            case 'f': Run_Dynamic_Programming_LCS();                continue;
-            case 'g': Run_Dynamic_Programming_LPS();                continue;
-            case 'h': Run_Graph_Floyd();                            continue;
-            case 'i': Run_Greedy_Kruskal();                         continue;
-            case 'j': Run_Greedy_Dijkastra();                       continue;
+            case 'a': Run_Cycle_Detection_in_Linked_List_Brent();       continue;
+            case 'b': Run_BinaryTree_Compression_Huffman();             continue;
+            case 'c': Run_BinaryTree_Decompression_Huffman();           continue;
+            case 'd': Run_BinaryTreeSearch_DFS_Interactive();           continue;
+            case 'e': Run_BinaryTreeSearch_BFS();                       continue;
+            case 'f': Run_Dynamic_Programming_Kadane();                 continue;
+            case 'g': Run_Dynamic_Programming_Knapsack_0_1();           continue;
+            case 'h': Run_Dynamic_Programming_LCS();                    continue;
+            case 'i': Run_Dynamic_Programming_LPS();                    continue;
+            case 'j': Run_Graph_Floyd();                                continue;
+            case 'k': Run_Greedy_Kruskal();                             continue;
+            case 'l': Run_Greedy_Dijkastra();                           continue;
         }
         break;
     }

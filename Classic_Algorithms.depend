@@ -1,253 +1,78 @@
 # depslib dependency file v1.0
-1492429811 source:/home/administrator/Desktop/c++/1TESTFAST/main.cpp
+1551956394 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.cpp
+	"_Lib_Edge.h"
 
-1533803460 am>
+1551956367 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.h
+	<cinttypes>
 
-1533803460 >
-
-1492526522 filesystem/operations.hpp>
-
-1533803460 
-
-1530688537 source:/home/administrator/Desktop/c++/1TESTFAST/1TESTFAST.cpp
-
-1533803460 b>
-
-1533803460 g>
-
-1533803460 p>
-
-1533803460 m>
-
-1533803460 fo>
-
-1533803460 al>
-
-1533803460 thm>
-
-1533803460 onal>
-
-1533803460 _view>
-
-1533803460 red_map>
-
-1512541731 mental/filesystem>
-
-1492526522 source:/home/administrator/Desktop/c++/1TESTFAST/DateDirectory.cpp
-
-1497414642 source:/home/administrator/Desktop/ProjectS/lib/Reader/Reader_Func_DownloadSiteContent.cpp
-
-1497414642 ept>
-
-1497414642 url.h>
-
-1502032407 source:/home/administrator/Desktop/ProjectS/lib/General/ZuzName.cpp
-
-1512899323 lib.h"
-
-1512541731 /home/administrator/Desktop/ProjectS/lib/Zuzlib.h
-
-1512541731 ion_variable>
-
-1512026096 source:/home/administrator/Desktop/ProjectS/lib/General/ItsBadIamDead.cpp
-
-1512026096 IamDead.h"
-
-1512026289 /home/administrator/Desktop/ProjectS/lib/General/ItsBadIamDead.h
-
-1511245931 ker/Talker.h"
-
-1511245827 /home/administrator/Desktop/ProjectS/lib/Talker/Talker.h
-
-1511245931 eral/DM/Directory_Manage.h"
-
-1511245981 /home/administrator/Desktop/ProjectS/lib/General/DM/Directory_Manage.h
-
-1511245981 h.h>
-
-1511245981 at.h>
-
-1511245981 LogExceptions/LogExceptions.h"
-
-1511245981 Zuzlib.h"
-
-1511245931 /home/administrator/Desktop/ProjectS/lib/LogExceptions/LogExceptions.h
-
-1511245931 algorithm/string.hpp>
-
-1512899331 source:/home/administrator/Desktop/ProjectS/lib/General/Ask.cpp
-
-1512899323 /home/administrator/Desktop/ProjectS/lib/General/Ask.h
-
-1533803460 source:/home/administrator/Desktop/c++/1TESTFAST1/1TESTFAST.cpp
-
-1533803460 red_set>
-
-1533803460 stem>
-
-1539715157 source:/home/administrator/Desktop/c++/0_TESTFAST/1TESTFAST.cpp
-	<any>
+1551958332 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
 	<set>
-	<map>
-	<mutex>
-	<ctime>
-	<cctype>
-	<cstdlib>
-	<atomic>
-	<string>
 	<vector>
-	<chrono>
-	<thread>
-	<cstring>
-	<iomanip>
-	<fstream>
-	<typeinfo>
-	<iostream>
-	<optional>
-	<algorithm>
-	<functional>
-	<string_view>
-	<unordered_set>
-	<unordered_map>
-	<filesystem>
+	"_Lib_Edge.h"
 
-1549659027 source:/home/administrator/Desktop/c++/Dijkastra Algorithm/Dijkastra.cpp
-	"Dijkastra.h"
-
-1549659831 /home/administrator/Desktop/c++/Dijkastra Algorithm/Dijkastra.h
-	<iostream>
-	<vector>
-	<queue>
-	<list>
-
-1549658790 source:/home/administrator/Desktop/c++/Dijkastra Algorithm/TESTDijkastra.cpp
-	<iostream>
-	"Dijkastra.h"
-
-1549659027 source:/home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/Dijkastra.cpp
-	"Dijkastra.h"
-
-1549659831 /home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/Dijkastra.h
-	<iostream>
-	<vector>
-	<queue>
-	<list>
-
-1549660043 source:/home/administrator/Desktop/Other_Projects/Dijkastra Algorithm/TESTDijkastra.cpp
-	<iostream>
-	"Dijkastra.h"
-
-1551701854 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS.cpp
-	"DFS.h"
-
-1551701840 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS.h
-
-1551703583 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/TEST_DFS.cpp
-	<iostream>
-	"DFS.h"
-	<list>
-	<vector>
-	<algorithm>
-
-1551708504 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interative.cpp
-	"DFS_Interative.h"
-
-1551707361 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interative.h
-	<iostream>
-	<list>
-	<stack>
-	<vector>
-	<algorithm>
-
-1551708867 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/Main.cpp
-	"DFS_Interactive.h"
-
-1551708847 /home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.h
-	<iostream>
-	<list>
-	<stack>
-	<vector>
-	<algorithm>
-
-1551708805 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/DFS - Depth first Search/DFS_Interactive.cpp
-	"DFS_Interactive.h"
-
-1551905564 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
-	<vector>
+1551813684 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.cpp
 	"Ask.h"
 
-1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Run_DFS_Interactive.cpp
+1551813681 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1551960143 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.cpp
+	"BFS.h"
+
+1551959650 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.h
+	<iostream>
+	<list>
+	<queue>
+	<vector>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
+
+1551958332 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
+	<set>
+	<vector>
+	"_Lib_Edge.h"
+
+1551959789 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS_run.cpp
+	"../_lib_/_Lib_Edge.h"
+	"BFS.h"
+
+1551960204 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.cpp
 	"DFS_Interactive.h"
 
-1551717310 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/DFS_Interactive.h
+1551960042 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.h
 	<iostream>
 	<list>
 	<stack>
 	<vector>
 	<algorithm>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
 
-1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/DFS_Interactive.cpp
+1551960234 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive_run.cpp
 	"DFS_Interactive.h"
-
-1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BFS.cpp
-	"BFS.h"
-
-1551720499 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BFS.h
-	<iostream>
-	<list>
-	<queue>
-	<vector>
-
-1551718296 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Run_BFS.cpp
-	"BFS.h"
-
-1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.cpp
-	"BFS.h"
-
-1551722728 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS.h
-	<iostream>
-	<list>
-	<queue>
-	<vector>
-
-1551722715 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/BFS_run.cpp
-	"BFS.h"
-
-1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.cpp
-	"DFS_Interactive.h"
-
-1551722735 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive.h
-	<iostream>
-	<list>
-	<stack>
-	<vector>
-	<algorithm>
-
-1551722715 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/DFS_Interactive_run.cpp
-	"DFS_Interactive.h"
-
-1551722471 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Binary_Tree.cpp
-
-1551774669 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Dynamic_Programming.cpp
 
 1551724421 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.cpp
-	"Kadane.h"
-
-1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
 	"Kadane.h"
 
 1551724393 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane.h
 	<iostream>
 	<vector>
 
-1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
+1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Kadane_run.cpp
+	"Kadane.h"
+
+1551740311 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.cpp
 	"Knapsack.h"
 
 1551736867 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.h
 	<iostream>
 	<vector>
 
-1551740311 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack.cpp
+1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/Knapsack_run.cpp
 	"Knapsack.h"
 
 1551740958 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common.cpp
@@ -262,7 +87,7 @@
 1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Common_run.cpp
 	"LongestSubsequence_Common.h"
 
-1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
+1551743379 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.cpp
 	"LongestSubsequence_Palindromic.h"
 
 1551741672 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.h
@@ -271,193 +96,63 @@
 	<algorithm>
 	<string_view>
 
-1551743379 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic.cpp
+1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
 	"LongestSubsequence_Palindromic.h"
 
-1551720793 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS.cpp
-	"BFS.h"
+1551958631 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
+	"Dijkastra.h"
 
-1551722728 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS.h
-	<iostream>
+1551958631 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
 	<list>
 	<queue>
 	<vector>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
 
-1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BFS_run.cpp
-	"BFS.h"
-
-1551722471 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/Binary_Tree.cpp
-
-1551717310 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive.cpp
-	"DFS_Interactive.h"
-
-1551722735 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive.h
+1551954009 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra_run.cpp
 	<iostream>
-	<list>
-	<stack>
-	<vector>
-	<algorithm>
-
-1551814106 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/DFS_Interactive_run.cpp
-	"DFS_Interactive.h"
-
-1551774700 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/BinaryTreeSearch/BinaryTreeSearch.cpp
-
-1551774783 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Greedy.cpp
-
-1551869478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.cpp
-	"Kruskal.h"
-	"Kruskal_SubSet.h"
-
-1551868811 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal.h
-	<set>
-	<vector>
-	<functional>
-	"Edge.h"
-
-1551867824 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_run.cpp
-	<iostream>
-	"Edge.h"
-	"Kruskal.h"
-
-1551865963 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.h
-	"Kruskal.h"
-	<cstring>
-
-1551865963 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Kruskal_SubSet.cpp
-	"Kruskal_SubSet.h"
-
-1551813684 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Ask.cpp
-	"Ask.h"
-
-1551813681 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Ask.h
-	<vector>
-	<string>
-	<sstream>
-	<iostream>
-	<algorithm>
-
-1551873717 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra.cpp
-	"Dijkastra.h"
-
-1551873755 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra.h
-	<set>
-	<list>
-	<queue>
-	<vector>
-	"Edge.h"
-
-1551874353 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Dijkastra_run.cpp
-	<iostream>
-	"Edge.h"
-	"Dijkastra.h"
-
-1551873717 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Edge.h
-	<cinttypes>
-
-1551871495 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Greedy/Edge.cpp
-	"Edge.h"
-
-1551874478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent.cpp
-	"Brent.h"
-
-1551874475 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent.h
-
-1551874516 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Brent_run.cpp
-	<iostream>
-	"Brent.h"
-
-1551881968 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd.cpp
-	"Floyd.h"
-
-1551887980 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd.h
-	<iostream>
-	<cstdio>
-	<limits>
-	<cinttypes>
-
-1551881695 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graph/Floyd_run.cpp
-	<iostream>
-	"Floyd.h"
-
-1551895421 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_Edge.cpp
-	"_Lib_Edge.h"
-
-1551895406 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_Edge.h
-	<cinttypes>
-
-1551890987 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_QuantVertices.cpp
-	"_Lib_QuantVertices.h"
-
-1551890981 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/_Lib_QuantVertices.h
-	<set>
-	<vector>
-	"_Lib_Edge.h"
-
-1551904628 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.cpp
-	"Brent.h"
-
-1551904628 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent.h
-
-1551904231 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Brent_run.cpp
-	<iostream>
-	<iomanip>
-	"_Lib_Edge.h"
-	"Brent.h"
-	<vector>
-	<stdio.h>
-	<stdlib.h>
-
-1551895637 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
-	"Dijkastra.h"
-
-1551895641 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
-	<list>
-	<queue>
-	<vector>
-	"_Lib_Edge.h"
-	"_Lib_QuantVertices.h"
-
-1551895492 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra_run.cpp
-	<iostream>
-	"_Lib_Edge.h"
+	"../_lib_/_Lib_Edge.h"
 	"Dijkastra.h"
 
 1551899849 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.cpp
 	"Floyd.h"
 
-1551901667 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
-	"_Lib_Edge.h"
-	"_Lib_QuantVertices.h"
+1551958267 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd.h
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
 
-1551899267 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
+1551954020 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Floyd_run.cpp
 	<iostream>
 	<iomanip>
-	"_Lib_Edge.h"
+	"../_lib_/_Lib_Edge.h"
 	"Floyd.h"
 	<vector>
 
-1551892108 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
+1551958631 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
 	"Kruskal.h"
 
-1551895684 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
+1551958631 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
 	<vector>
 	<functional>
-	"_Lib_Edge.h"
-	"_Lib_QuantVertices.h"
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
 	"Kruskal_SubSet.h"
 
 1551889465 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.h
 	"Kruskal.h"
 	<cstring>
 
-1551889214 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
+1551954048 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
 	<iostream>
-	"_Lib_Edge.h"
+	"../_lib_/_Lib_Edge.h"
 	"Kruskal.h"
 
 1551888846 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
+
+1551955009 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+	<vector>
+	"_lib_/Ask.h"
 
 1551910095 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.cpp
 	"Brent.h"
@@ -465,7 +160,7 @@
 1551910521 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.h
 	<utility>
 
-1551910592 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent_run.cpp
+1551910854 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent_run.cpp
 	<iostream>
 	<iomanip>
 	"Brent.h"
