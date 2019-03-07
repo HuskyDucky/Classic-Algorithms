@@ -6,20 +6,23 @@
 **/
 #include "BFS.h"
 
-Graph_BFS::Graph_BFS(uint32_t v) : V(v), Adj(v) {}
+BFS::BFS(vector<EdgeVV>& Edges) : Vertices(TotOfVertices(Edges)) {
 
-void Graph_BFS::AddEdge(uint32_t v1, uint32_t v2) {
-     Adj[v1].emplace_back(v2); }
+    for (auto& edge : Edges)
+        Vertices[edge.Vertex_1()].emplace_back(edge.Vertex_2());
+}
 
-void Graph_BFS::bfs(uint32_t v) {
-     vector<uint8_t> visited(Adj.size(), false);
+void BFS::ProcessBFS(VertexType CurrVertex) {
+     if (CurrVertex >= Vertices.size())
+        throw runtime_error("BFS: Vertex doesn't exist");
 
-     cout << "\nVisiting Vertex " << v;
-     visited[v] = true;
+     vector<uint8_t> visited(Vertices.size(), false);
+
+     visited[CurrVertex] = true;
 
      for (;;) {
-         auto IIt = Adj[v].cbegin();
-         for(; IIt != Adj[v].cend(); ++IIt)
+         auto IIt = Vertices[CurrVertex].cbegin();
+         for(; IIt != Vertices[CurrVertex].cend(); ++IIt)
          if (!visited[*IIt]) {
 
             cout << "\nVisiting Vertex " << *IIt;
@@ -30,7 +33,7 @@ void Graph_BFS::bfs(uint32_t v) {
          if (Pool.empty())
             break;
          else {
-              v = Pool.front();
+              CurrVertex = Pool.front();
               Pool.pop();
          }
      }

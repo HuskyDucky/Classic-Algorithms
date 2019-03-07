@@ -6,39 +6,43 @@
 **/
 #include "DFS_Interactive.h"
 
-Graph_DFS_Interactive::Graph_DFS_Interactive(uint32_t v) : V(v), Adj(v) {}
+DFS_Interactive::DFS_Interactive(vector<EdgeVV>& Edges) : Vertices(TotOfVertices(Edges)) {
 
-void Graph_DFS_Interactive::AddEdge(uint32_t v1, uint32_t v2) {
-     Adj[v1].emplace_back(v2); }
+    for (auto& edge : Edges)
+        Vertices[edge.Vertex_1()].emplace_back(edge.Vertex_2());
+}
 
-void Graph_DFS_Interactive::dfs(uint32_t v) {
-     vector<uint8_t> visited(Adj.size(), false);
+void DFS_Interactive::ProcessDFS(VertexType CurrVertex) {
+     if (CurrVertex >= Vertices.size())
+        throw runtime_error("DFS: Vertex doesn't exist");
+
+     vector<uint8_t> visited(Vertices.size(), false);
 
      for (;;) {
-         if (!visited[v]) {
+         if (!visited[CurrVertex]) {
 
-            cout << "\nVisiting Vertex " << v;
+            cout << "\nVisiting Vertex " << CurrVertex;
 
-            visited[v] = true;
-            S.push(v);
+            visited[CurrVertex] = true;
+            Pool.push(CurrVertex);
          }
 
          bool found = false;
 
-         auto IIt = Adj[v].cbegin();
-         for (; IIt != Adj[v].cend(); ++IIt)
+         auto IIt = Vertices[CurrVertex].cbegin();
+         for (; IIt != Vertices[CurrVertex].cend(); ++IIt)
             if (!visited[*IIt]) {
-                v = *IIt;
+                CurrVertex = *IIt;
                 found = true;
                 break;
             }
 
          if (!found) {
-            S.pop();
-            if (S.empty())
+            Pool.pop();
+            if (Pool.empty())
                 break;
 
-            v = S.top();
+            CurrVertex = Pool.top();
          }
      }
 }

@@ -14,18 +14,19 @@
 #include <vector>
 #include <algorithm>
 
+#include "../_lib_/_Lib_Edge.h"
+#include "../_lib_/_Lib_QuantVertices.cpp"
+
 using namespace std;
 
-struct Graph_DFS_Interactive {
-       Graph_DFS_Interactive(uint32_t v);
+struct DFS_Interactive {
+       DFS_Interactive(vector<EdgeVV>& Edges);
 
-    void AddEdge(uint32_t v1, uint32_t v2);
-    void dfs(uint32_t v);
+    void ProcessDFS(VertexType CurrVertex);
 
     private:
-        uint32_t V;
-        stack<uint32_t> S;
-        vector<list<uint32_t>> Adj;
+        stack<VertexType> Pool;
+        vector<list<VertexType>> Vertices;
 };
 
 #endif // DFS_H

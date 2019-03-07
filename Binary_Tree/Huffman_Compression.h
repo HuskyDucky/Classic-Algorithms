@@ -13,19 +13,18 @@
 #include <queue>
 #include <vector>
 
-#include "../_lib_/_Lib_Edge.h"
-#include "../_lib_/_Lib_QuantVertices.cpp"
-
 using namespace std;
 
-struct BFS {
-       BFS(vector<EdgeVV>& Edges);
+struct Graph_BFS {
+       Graph_BFS(uint32_t v);
 
-    void ProcessBFS(VertexType CurrVertex);
+    void AddEdge(uint32_t v1, uint32_t v2);
+    void bfs(uint32_t v);
 
     private:
-        queue<VertexType> Pool;
-        vector<list<VertexType>> Vertices;
+        uint32_t V;
+        queue<uint32_t> Pool;
+        vector<list<uint32_t>> Adj;
 };
 
 #endif // BFS_H
