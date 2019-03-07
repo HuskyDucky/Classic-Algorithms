@@ -47,6 +47,7 @@
 		<Unit filename="Binary_Tree/Huffman.jpg" />
 		<Unit filename="Binary_Tree/Huffman_Compression.cpp" />
 		<Unit filename="Binary_Tree/Huffman_Compression.h" />
+		<Unit filename="Binary_Tree/Huffman_Compression_DataStructure.h" />
 		<Unit filename="Binary_Tree/Huffman_Compression_run.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.h" />
