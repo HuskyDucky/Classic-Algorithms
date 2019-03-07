@@ -1,5 +1,5 @@
 /**
-    File    : DFS_Interactive.cpp
+    File    : DFS_Interactive_run.cpp
     Author  : Menashe Rosemberg
 
     Depth First Search - DFS
@@ -10,7 +10,7 @@
 void Run_BinaryTreeSearch_DFS_Interactive() {
 
     cout << "\n\t\t\t\tBinary Tree Search - DFS Interactive\n"
-         << "\n\nExpected 0, 1, 3, 4, 2, 5, 6, 7";
+         << "\n\nExpected 0, 1, 3, 4, 2, 5, 6, 7\nResult:";
 
     vector<EdgeVV> Edges {{0, 1},
                           {0, 2},

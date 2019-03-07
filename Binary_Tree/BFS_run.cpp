@@ -1,5 +1,5 @@
 /**
-    File    : BFS-run.cpp
+    File    : BFS_run.cpp
     Author  : Menashe Rosemberg
 
     Test Breadth First Search - BFS
@@ -11,7 +11,7 @@
 void Run_BinaryTreeSearch_BFS() {
 
     cout << "\n\t\t\t\tBinary Tree Search - BFS"
-         << "\n\nExpected 0, 1, 2, 3, 4, 5, 6, 7";
+         << "\n\nExpected 0, 1, 2, 3, 4, 5, 6, 7\nResult:";
 
     vector<EdgeVV> Edges {{0, 1},
                           {0, 2},
