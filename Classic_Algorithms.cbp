@@ -18,15 +18,10 @@
 					<Add option="-Wall" />
 					<Add option="-std=c++1z" />
 					<Add option="-m64" />
-					<Add option="-fopenmp" />
-					<Add directory="../0_TESTFAST (copy 1)" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add option="-m64" />
-					<Add option="-lstdc++fs" />
-					<Add option="-lcurl" />
-					<Add option="-pthread" />
 				</Linker>
 			</Target>
 		</Build>
@@ -50,6 +45,9 @@
 		<Unit filename="Binary_Tree/DFS_Interactive_run.cpp" />
 		<Unit filename="Binary_Tree/DFS_example.png" />
 		<Unit filename="Binary_Tree/Huffman.jpg" />
+		<Unit filename="Binary_Tree/Huffman_Compression.cpp" />
+		<Unit filename="Binary_Tree/Huffman_Compression.h" />
+		<Unit filename="Binary_Tree/Huffman_Compression_run.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.h" />
 		<Unit filename="Dynamic_Programming/Kadane_run.cpp" />

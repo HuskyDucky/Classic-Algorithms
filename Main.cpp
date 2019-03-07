@@ -17,7 +17,7 @@
 
 void Run_Cycle_Detection_in_Linked_List_Brent();
 void Run_BinaryTreeSearch_DFS_Interactive();
-void Run_BinaryTree_Compression_Huffman() {}
+void Run_BinaryTree_Compression_Huffman();
 void Run_BinaryTree_Decompression_Huffman() {}
 void Run_BinaryTreeSearch_BFS();
 void Run_Dynamic_Programming_Kadane();
@@ -32,7 +32,7 @@ int main() {
 
     std::vector<std::string> Options {
                                 "Cycle_Detection in Linked List- Brent",
-                                "Binary Tree - Compression - Huffman (to be implemented)",
+                                "Binary Tree - Compression - Huffman",
                                 "Binary Tree - Decompression - Huffman (to be implemented)",
                                 "Binary Tree Search - DFS Interactive",
                                 "Binary Tree Search - BFS",
