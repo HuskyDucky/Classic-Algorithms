@@ -36,15 +36,21 @@
 		</Compiler>
 		<Unit filename="Ask.cpp" />
 		<Unit filename="Ask.h" />
-		<Unit filename="BinaryTreeSearch/BFS.cpp" />
-		<Unit filename="BinaryTreeSearch/BFS.h" />
+		<Unit filename="BinaryTree/BFS_example.gif" />
+		<Unit filename="BinaryTree/BinaryTree to test DFS and BFS.jpg" />
+		<Unit filename="BinaryTree/DFS_example.png" />
 		<Unit filename="BinaryTreeSearch/BFS_example.gif" />
-		<Unit filename="BinaryTreeSearch/BFS_run.cpp" />
 		<Unit filename="BinaryTreeSearch/BinaryTree to test DFS and BFS.jpg" />
-		<Unit filename="BinaryTreeSearch/DFS_Interactive.cpp" />
-		<Unit filename="BinaryTreeSearch/DFS_Interactive.h" />
-		<Unit filename="BinaryTreeSearch/DFS_Interactive_run.cpp" />
 		<Unit filename="BinaryTreeSearch/DFS_example.png" />
+		<Unit filename="Binary_Tree/BFS.cpp" />
+		<Unit filename="Binary_Tree/BFS.h" />
+		<Unit filename="Binary_Tree/BFS_example.gif" />
+		<Unit filename="Binary_Tree/BFS_run.cpp" />
+		<Unit filename="Binary_Tree/BinaryTree to test DFS and BFS.jpg" />
+		<Unit filename="Binary_Tree/DFS_Interactive.cpp" />
+		<Unit filename="Binary_Tree/DFS_Interactive.h" />
+		<Unit filename="Binary_Tree/DFS_Interactive_run.cpp" />
+		<Unit filename="Binary_Tree/DFS_example.png" />
 		<Unit filename="Dynamic_Programming/Kadane.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.h" />
 		<Unit filename="Dynamic_Programming/Kadane_run.cpp" />
