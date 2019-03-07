@@ -25,7 +25,7 @@ struct Huffman {
 
         inline NodeLR Extract_D2Nodes_Lessfreq();
 
-        void PrintHuffman(Node* root, string str);
+        void PrintHuffman(shared_ptr<Node> root, string str);
 };
 
 #endif // HUFFMAN_H

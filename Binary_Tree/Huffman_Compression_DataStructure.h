@@ -7,8 +7,11 @@
 #ifndef HUFFMAN_DATASTRUCT_H
 #define HUFFMAN_DATASTRUCT_H
 
+#include <memory>
 #include <vector>
 #include <queue>
+
+using namespace std;
 
 struct Data {
        Data(char tdata, unsigned tfreq) : m_data(tdata), m_freq(tfreq) {}
@@ -23,20 +26,20 @@ struct Data {
 
 struct Node;
 struct NodeLR {
-       NodeLR(Node* L = nullptr,
-              Node* R = nullptr) : left(L), right(R) {}
-    Node* left;
-    Node* right;
+       NodeLR(shared_ptr<Node> L = nullptr,
+              shared_ptr<Node> R = nullptr) : left(L), right(R) {}
+    shared_ptr<Node> left;
+    shared_ptr<Node> right;
 };
 
 struct Node : Data, NodeLR {
        Node(char data, unsigned freq) : Data(data, freq) {}};
 
 namespace std {
-    template<> struct less<Node*> {
-        bool operator()(const Node* l, const Node* r) {
+    template<> struct less<shared_ptr<Node>> {
+        bool operator()(const shared_ptr<Node> l, const shared_ptr<Node> r) {
              return (l->freq() > r->freq()); } }; }
 
-using NodesPrioQueue = std::priority_queue<Node*, std::vector<Node*>>;
+using NodesPrioQueue = priority_queue<shared_ptr<Node>, vector<shared_ptr<Node>>>;
 
 #endif // HUFFMAN_DATASTRUCT_H

@@ -10,7 +10,7 @@
 
 Huffman::Huffman(const vector<Data>& DataList)  {
     for (uint32_t IIt = 0; IIt < DataList.size(); ++IIt)                           //Create notes to all elements
-        NodeS.push(new Node(DataList[IIt].data(), DataList[IIt].freq()));
+        NodeS.emplace(new Node(DataList[IIt].data(), DataList[IIt].freq()));
 }
 
 inline NodeLR Huffman::Extract_D2Nodes_Lessfreq() {
@@ -30,7 +30,7 @@ void Huffman::ProcessHuffman() {
             NodeLR LessFreqNodes = Extract_D2Nodes_Lessfreq();
 
             //create a subroots signed with '$' whereas its freq is the sum of the less freq nodes and pointing to these less freq nodes
-            Node* SubRoot(new Node('$', LessFreqNodes.left->freq() + LessFreqNodes.right->freq()));
+            shared_ptr<Node> SubRoot(new Node('$', LessFreqNodes.left->freq() + LessFreqNodes.right->freq()));
             SubRoot->left = LessFreqNodes.left;
             SubRoot->right= LessFreqNodes.right;
 
@@ -42,7 +42,7 @@ void Huffman::PrintHuffmanTree() {
      PrintHuffman(NodeS.top(), "");
 }
 
-void Huffman::PrintHuffman(Node* root, string str) {
+void Huffman::PrintHuffman(shared_ptr<Node> root, string str) {
      if (root) {
         if (root->data() != '$')
             cout << root->data() << ": " << str << "\n";
