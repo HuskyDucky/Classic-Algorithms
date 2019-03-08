@@ -13,8 +13,9 @@ using namespace std;
 
 struct Node {
        Node(int Data) : data(Data) {}
+
     int data;
-    struct Node* next;
+    Node* next;
 };
 
 using NodePair = pair<Node*, Node*>;
