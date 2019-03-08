@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1551956394 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.cpp
+1552036595 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.cpp
 	"_Lib_Edge.h"
 
-1551956367 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.h
+1552036595 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_Edge.h
 	<cinttypes>
 
-1551958332 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
+1552045210 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
 	<set>
 	<vector>
 	"_Lib_Edge.h"
@@ -31,7 +31,7 @@
 	"../_lib_/_Lib_Edge.h"
 	"../_lib_/_Lib_QuantVertices.cpp"
 
-1551958332 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
+1552045210 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/_Lib_QuantVertices.cpp
 	<set>
 	<vector>
 	"_Lib_Edge.h"
@@ -150,14 +150,14 @@
 1551888846 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
 
-1551977003 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1552043336 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"_lib_/Ask.h"
 
 1551910095 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.cpp
 	"Brent.h"
 
-1551910521 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.h
+1552033294 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent.h
 	<utility>
 
 1551910854 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/Brent_run.cpp
@@ -165,7 +165,7 @@
 	<iomanip>
 	"Brent.h"
 
-1551985591 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
+1552033478 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.cpp
 	"Huffman_Compression.h"
 
 1551985141 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression.h
@@ -173,7 +173,7 @@
 	<string>
 	"Huffman_Compression_DataStructure.h"
 
-1551985192 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
+1552033524 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Huffman_Compression_run.cpp
 	<iostream>
 	"Huffman_Compression.h"
 
@@ -182,4 +182,17 @@
 	<vector>
 	<queue>
 	<map>
+
+1552046013 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection.cpp
+	"CycleDetection.h"
+
+1552046035 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection.h
+	<list>
+	<vector>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
+
+1552045670 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Others/CycleDetection_run.cpp
+	<iostream>
+	"CycleDetection.h"
 

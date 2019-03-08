@@ -29,12 +29,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="BinaryTree/BFS_example.gif" />
-		<Unit filename="BinaryTree/BinaryTree to test DFS and BFS.jpg" />
-		<Unit filename="BinaryTree/DFS_example.png" />
-		<Unit filename="BinaryTreeSearch/BFS_example.gif" />
-		<Unit filename="BinaryTreeSearch/BinaryTree to test DFS and BFS.jpg" />
-		<Unit filename="BinaryTreeSearch/DFS_example.png" />
 		<Unit filename="Binary_Tree/BFS.cpp" />
 		<Unit filename="Binary_Tree/BFS.h" />
 		<Unit filename="Binary_Tree/BFS_example.gif" />
@@ -80,6 +74,9 @@
 		<Unit filename="Others/Brent.cpp" />
 		<Unit filename="Others/Brent.h" />
 		<Unit filename="Others/Brent_run.cpp" />
+		<Unit filename="Others/CycleDetection.cpp" />
+		<Unit filename="Others/CycleDetection.h" />
+		<Unit filename="Others/CycleDetection_run.cpp" />
 		<Unit filename="_lib_/Ask.cpp" />
 		<Unit filename="_lib_/Ask.h" />
 		<Unit filename="_lib_/_Lib_Edge.cpp" />
