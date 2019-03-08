@@ -1,6 +1,6 @@
 # Classic-Algorithms
 
-Cycle Detection on Graphs: (isCyclic algortith), Brend
+Cycle Detection on Graphs: (isCyclic algortithm), Brend
 
 Binary-tree: BFS (Breadth First Search), DFS Interative (Depth First Search), Huffman Compression
 
