@@ -33,6 +33,6 @@ void Run_BinaryTree_Compression_Huffman() {
 
     H.PrintHashTable();
 
-    cout << "\n\tCode: " << H.Code();
+    cout << "\tCode: " << H.Code();
     cout << "\n\tDecode: " << H.Decode();
 }

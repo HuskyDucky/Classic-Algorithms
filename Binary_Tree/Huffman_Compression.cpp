@@ -11,7 +11,7 @@ Huffman::Huffman(const string& toEncode) : Text(toEncode) {
 
          string::size_type sSize  = this->Text.size();
     for (string::size_type letter = 0; letter < sSize; ++letter)
-        LetterFreq[this->Text[letter]]++;
+        ++LetterFreq[this->Text[letter]];
 
     //convert to nodes
     for (auto& LeFr : LetterFreq)
