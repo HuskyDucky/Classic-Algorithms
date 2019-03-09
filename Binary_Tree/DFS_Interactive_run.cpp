@@ -3,11 +3,21 @@
     Author  : Menashe Rosemberg
 
     Depth First Search - DFS
+
+    Menashe Rosemberg   Israel +972-52-323-0538
+    Copyright(c) 2019      All rights reserved.
+
+    Software distributed under the MIT License is distributed on an "AS IS" BASIS,
+    NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
+
+#include <iostream>
 
 #include "DFS_Interactive.h"
 
-void Run_BinaryTreeSearch_DFS_Interactive() {
+using namespace std;
+
+void Run_BinaryTreeSearch_DFS() {
 
     cout << "\n\t\t\t\tBinary Tree Search - DFS Interactive\n"
          << "\n\nExpected 0, 1, 3, 4, 2, 5, 6, 7\nResult:";
@@ -21,7 +31,7 @@ void Run_BinaryTreeSearch_DFS_Interactive() {
                           {6, 7}
     };
 
-    DFS_Interactive DFSInt(Edges);
+    DFS DFSInt(Edges);
 
     DFSInt.ProcessDFS(0);
 }
