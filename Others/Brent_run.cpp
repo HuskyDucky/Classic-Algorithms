@@ -5,6 +5,12 @@
     Linked List - Cycle Detection - Brent
 
     Based on source code from:https://www.geeksforgeeks.org/brents-cycle-detection-algorithm
+
+    Menashe Rosemberg   Israel +972-52-323-0538
+    Copyright(c) 2019      All rights reserved.
+
+    Software distributed under the MIT License is distributed on an "AS IS" BASIS,
+    NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
 #include <iostream>
 #include <iomanip>

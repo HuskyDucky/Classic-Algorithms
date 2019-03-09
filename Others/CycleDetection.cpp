@@ -3,6 +3,12 @@
     Author  : Menashe Rosemberg
 
     Linked List - Cycle Detection
+
+    Menashe Rosemberg   Israel +972-52-323-0538
+    Copyright(c) 2019      All rights reserved.
+
+    Software distributed under the MIT License is distributed on an "AS IS" BASIS,
+    NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
 #include "CycleDetection.h"
 
@@ -12,7 +18,7 @@ CycleDetect::CycleDetect(const vector<EdgeVV>& edges) : NOfVertices(TotOfVertice
     vector<list<VertexType>> tmpEdges(NOfVertices);             //every line is the origin vertex
 
     for (auto& edge : edges)
-        tmpEdges[edge.Vertex_1()].push_back(edge.Vertex_2());   //Add to Origin vertex its destiny vertex
+        tmpEdges[edge.Vertex_1()].push_back(edge.Vertex_2());   //Add to Origin vertex its destiny
 
     Visited1stTime.swap(V1stTime);
     Visited2ndTime.swap(V2ndTime);
