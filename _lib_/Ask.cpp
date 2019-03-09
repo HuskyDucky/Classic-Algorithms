@@ -1,34 +1,34 @@
 /**
     File    : Ask.cpp
     Author  : Menashe Rosemberg
-    Created : 2017.12.03            Version: 20181111.2
+    Created : 2017.12.03            Version: 20181111.3
 
     Construct a simple question and wait the answer
 
     Menashe Rosemberg   Israel +972-52-323-0538
     Copyright(c) 2019      All rights reserved.
 
-    Software distributed under the License is distributed on an "AS IS" BASIS,
+    Software distributed under the MIT License is distributed on an "AS IS" BASIS,
     NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
 **/
 #include "Ask.h"
 
-Ask::Ask() : ostream(&this->sstheQuestionIs) {}
+Ask::Ask() : ostream(&this->ssTheQuestionIs) {}
 
 Ask::Ask(vector<string>&& aAns, uint8_t iOptions)
-        : ostream(&this->sstheQuestionIs), Answers(aAns), iBehavior(iOptions) {}
+        : ostream(&this->ssTheQuestionIs), Answers(aAns), iBehavior(iOptions) {}
 
-Ask::Ask(const string& sTheQuestion)
-        : ostream(&this->sstheQuestionIs) {
-        sstheQuestionIs.sputn(sTheQuestion.c_str(), sTheQuestion.size());
+Ask::Ask(const string& TheQuestion)
+        : ostream(&this->ssTheQuestionIs) {
+        ssTheQuestionIs.sputn(TheQuestion.c_str(), TheQuestion.size());
 }
 
-Ask::Ask(const string& sTheQuestion, vector<string>&& aAns, uint8_t iOptions)
-        : ostream(&this->sstheQuestionIs), Answers(aAns), iBehavior(iOptions) {
-        sstheQuestionIs.sputn(sTheQuestion.c_str(), sTheQuestion.size());
+Ask::Ask(const string& TheQuestion, vector<string>&& aAns, uint8_t iOptions)
+        : ostream(&this->ssTheQuestionIs), Answers(aAns), iBehavior(iOptions) {
+        ssTheQuestionIs.sputn(TheQuestion.c_str(), TheQuestion.size());
 }
 
-void Ask::hastheAnswers(vector<string>&& aAns) {
+void Ask::hastheAnswers(vector<string>& aAns) {
      this->Answers = aAns;
 }
 
@@ -39,10 +39,10 @@ void Ask::hastheBehavior(uint8_t iOptions) {
 /*void Ask::AnotherQuestion() {
      this->Answers = {};
      this->iBehavior = ASK::SHOW_ANSWERS;
-     this->sstheQuestionIs.str("");
+     this->ssTheQuestionIs.str("");
 }*/
 
-struct GenLetter {
+struct Ask::GenLetter {
        char letter() {
             switch (Letter) {
                 case 123: return (65);
@@ -71,7 +71,7 @@ uint8_t Ask::wasmade() {
         }
 
         for (;;) {
-            cout << this->sstheQuestionIs.str();
+            cout << this->ssTheQuestionIs.str();
 
             if (!(this->iBehavior & ASK::NOT_SHOW_ANSWERS))
                 for (auto& IIt : this->Answers)
@@ -94,13 +94,13 @@ uint8_t Ask::wasmade() {
                 auto IIt = find(this->Answers.cbegin(), this->Answers.cend(), sAux);
 
                 if (IIt != this->Answers.cend()) {
-                   this->sstheQuestionIs.str("");
+                   this->ssTheQuestionIs.str("");
                    return IIt - this->Answers.cbegin();
                 }
             }
 
             if (this->iBehavior & ASK::NOT_IN_LOOP) {
-               this->sstheQuestionIs.str("");
+               this->ssTheQuestionIs.str("");
                return 255;
             }
 
