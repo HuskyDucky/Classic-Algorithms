@@ -1,6 +1,7 @@
 /**
     File    : Dijkastra_run.cpp
     Author  : Menashe Rosemberg
+    Created : 2019.03.02            Version: 20190302.1
 
     Greedy - Minimum Spanning Tree - Dijkastra
 

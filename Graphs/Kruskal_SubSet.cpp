@@ -1,6 +1,7 @@
 /**
     File    : Kruskal_SubSet.cpp
     Author  : Menashe Rosemberg
+    Created : 2019.03.01            Version: 20190301.1
 
     Greedy - Minimum Spanning Tree - Kruskal SubSet
 
