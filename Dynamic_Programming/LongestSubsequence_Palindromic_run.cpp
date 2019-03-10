@@ -1,6 +1,7 @@
 /**
     File    : LongestSubsequence_Palindromic_run.h
     Author  : Menashe Rosemberg
+    Created : 2019.03.03            Version: 20190303.1
 
     Longest Palindromic Subsequence - LPS
 

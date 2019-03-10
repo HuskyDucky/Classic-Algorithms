@@ -1,6 +1,7 @@
 /**
     File    : Kadane_run.cpp
     Author  : Menashe Rosemberg
+    Created : 2019.03.06            Version: 20190306.1
 
     Dynamic Programming - Kadane
 

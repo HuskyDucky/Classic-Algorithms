@@ -1,6 +1,7 @@
 /**
     File    : Knapsack.h
     Author  : Menashe Rosemberg
+    Created : 2019.03.07            Version: 20190307.1
 
     Dynamic Programming - Knapsack 0/1
 
