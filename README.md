@@ -1,13 +1,23 @@
 # Classic-Algorithms
 
-Cycle Detection on Graphs: (isCyclic algortithm), Brend
+Cycle Detection on Graphs: 
+(isCyclic algortithm), 
+Brend
 
-Binary-tree: BFS (Breadth First Search), 
+Binary-tree: 
+BFS (Breadth First Search), 
 DFS Interative (Depth First Search), 
 Huffman Compression, 
 Kosaraju-Sharir (Strong Connected Component), 
 Tarjan (Strong Connected Component)
 
-Dynamic Programming: Kadene, Knapsack, Longest Common Subsequence (LCS), Longest Palindromic Subsequence (LPS)
+Dynamic Programming: 
+Kadene, 
+Knapsack, 
+Longest Common Subsequence (LCS), 
+Longest Palindromic Subsequence (LPS)
 
-Graph - Floyd, Kruskal, Dijkastra
+Graph: 
+Floyd, 
+Kruskal, 
+Dijkastra
