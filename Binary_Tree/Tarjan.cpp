@@ -1,6 +1,7 @@
 /**
     File    : Tarjan.cpp
     Author  : Menashe Rosemberg
+    Created : 2019.03.09            Version: 20190309.1
 
     Binary Tree Search - DFS - Strong Connected Component - Tarjan
 
@@ -21,10 +22,10 @@ void Tarjan::ProcessSCC() {
          if (this->FinCycle[Vertex] == NOT_Visited)
             SCC(Vertex);
 
-     //Clean up aux variables
-     this->QOfComponents = 0;
-     this->IniCycle.assign(this->IniCycle.size(), NOT_Visited);
-     this->FinCycle.assign(this->FinCycle.size(), NOT_Visited);
+     //Clean up aux variables (not necessary for this example
+     //this->QOfComponents = 0;
+     //this->IniCycle.assign(this->IniCycle.size(), NOT_Visited);
+     //this->FinCycle.assign(this->FinCycle.size(), NOT_Visited);
 }
 
 void Tarjan::SCC(VertexType Vertex) {

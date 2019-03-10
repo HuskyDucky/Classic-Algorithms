@@ -1,6 +1,7 @@
 /**
     File    : Tarjan.h
     Author  : Menashe Rosemberg
+    Created : 2019.03.09            Version: 20190309.1
 
     Binary Tree Search - DFS - Strong Connected Component - Tarjan
 

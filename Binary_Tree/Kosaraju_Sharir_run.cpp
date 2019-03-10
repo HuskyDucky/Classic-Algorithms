@@ -1,9 +1,9 @@
 /**
-    File    : Tarjan_run.cpp
+    File    : Kosaraju_Sharir_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.09            Version: 20190309.1
+    Created : 2019.03.10            Version: 20190310.1
 
-    Binary Tree Search - DFS - Strong Connected Component - Tarjan
+    Binary Tree Search - DFS - Strong Connected Component - Kosaraju-Sharir
 
     Menashe Rosemberg   Israel +972-52-323-0538
     Copyright(c) 2019      All rights reserved.
@@ -13,16 +13,16 @@
 **/
 #include <iostream>
 
-#include "Tarjan.h"
+#include "Kosaraju_Sharir.h"
 
-void Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan() {
+void Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir() {
 
-    cout << "\n\t\t\t\tBinary Tree Search - Tarjan"
+    cout << "\n\t\t\t\tBinary Tree Search - Kosaraju_Sharir"
          << "\n\tExpected:"
-         << "\n8 9"
+         << "\n0 2 1 3"
+         << "\n6 4 5"
          << "\n7"
-         << "\n5 4 6"
-         << "\n3 2 1 0"
+         << "\n9 8"
          <<"\n\n\tResult:\n";
 
     vector<EdgeVV> Edges {  {0,1}, {0,3},
@@ -37,7 +37,8 @@ void Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan() {
                             {9,8}
     };
 
-    Tarjan T(Edges);
 
-    T.ProcessSCC();
+    Kosaraju_Sharir T(Edges);
+
+    T.SCC();
 }
