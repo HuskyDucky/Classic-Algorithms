@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190307.1
+    Created : 2019.03.02            Version: 20190309.2
 
     Construct a simple question and wait the answer
 
@@ -20,6 +20,7 @@ void Run_Cycle_Detection_in_Linked_List_Brent();
 void Run_BinaryTree_Compression_Huffman();
 void Run_BinaryTreeSearch_BFS();
 void Run_BinaryTreeSearch_DFS();
+void Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir();
 void Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();
 void Run_Greedy_Kruskal();
 void Run_Greedy_Dijkastra();
@@ -31,20 +32,22 @@ void Run_Dynamic_Programming_LPS();
 
 int main() {
 
-    ListOfOptQuest Options {{"Linked List - Cycle_Detection",                       [](){ Run_Cycle_Detection_in_Linked_List();                 }},
-                            {"Linked List - Cycle_Detection - Brent",               [](){ Run_Cycle_Detection_in_Linked_List_Brent();           }},
-                            {"Binary Tree - Compression - Huffman",                 [](){ Run_BinaryTree_Compression_Huffman();                 }},
-                            {"Binary Tree Search - BFS",                            [](){ Run_BinaryTreeSearch_BFS();                           }},
-                            {"Binary Tree Search - DFS Interactive",                [](){ Run_BinaryTreeSearch_DFS();                           }},
-                            {"Binary Tree Search - DFS - Strong Connected - Tarjan",[](){ Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();   }},
-                            {"Graph - Minimum Spanning Tree - Floyd Warshall",      [](){ Run_Graph_Floyd();                                    }},
-                            {"Graph - Greedy - Minimum Spanning Tree - Kruskal",    [](){ Run_Greedy_Kruskal();                                 }},
-                            {"Graph - Greedy - Minimum Spanning Tree - Dijkastra",  [](){ Run_Greedy_Dijkastra();                               }},
-                            {"Dynamic Programming- Kadane",                         [](){ Run_Dynamic_Programming_Kadane();                     }},
-                            {"Dynamic Programming- Knapsack 0 1",                   [](){ Run_Dynamic_Programming_Knapsack_0_1();               }},
-                            {"Dynamic Programming- LCS",                            [](){ Run_Dynamic_Programming_LCS();                        }},
-                            {"Dynamic Programming- LPS",                            [](){ Run_Dynamic_Programming_LPS();                        }}
-    };
+    ListOfOptQuest Options
+                    {{"Linked List - Cycle_Detection",                               [](){ Run_Cycle_Detection_in_Linked_List();                        }},
+                    {"Linked List - Cycle_Detection - Brent",                        [](){ Run_Cycle_Detection_in_Linked_List_Brent();                  }},
+                    {"Binary Tree - Compression - Huffman",                          [](){ Run_BinaryTree_Compression_Huffman();                        }},
+                    {"Binary Tree Search - BFS",                                     [](){ Run_BinaryTreeSearch_BFS();                                  }},
+                    {"Binary Tree Search - DFS Interactive",                         [](){ Run_BinaryTreeSearch_DFS();                                  }},
+                    {"Binary Tree Search - DFS - Strong Connected - Kosaraju-Sharir",[](){ Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir(); }},
+                    {"Binary Tree Search - DFS - Strong Connected - Tarjan",         [](){ Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();          }},
+                    {"Graph - Minimum Spanning Tree - Floyd Warshall",               [](){ Run_Graph_Floyd();                                           }},
+                    {"Graph - Greedy - Minimum Spanning Tree - Kruskal",             [](){ Run_Greedy_Kruskal();                                        }},
+                    {"Graph - Greedy - Minimum Spanning Tree - Dijkastra",           [](){ Run_Greedy_Dijkastra();                                      }},
+                    {"Dynamic Programming- Kadane",                                  [](){ Run_Dynamic_Programming_Kadane();                            }},
+                    {"Dynamic Programming- Knapsack 0 1",                            [](){ Run_Dynamic_Programming_Knapsack_0_1();                      }},
+                    {"Dynamic Programming- Longest Common Subsequence",              [](){ Run_Dynamic_Programming_LCS();                               }},
+                    {"Dynamic Programming- Longest Palindromic Subsequence",         [](){ Run_Dynamic_Programming_LPS();                               }}
+    } ;
 
     Ask_Menu TheQuestion("\n\nChoose the Algorithm you are leaning:\n", move(Options));
     TheQuestion.Show();

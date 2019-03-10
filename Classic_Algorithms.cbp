@@ -43,9 +43,12 @@
 		<Unit filename="Binary_Tree/Huffman_Compression.h" />
 		<Unit filename="Binary_Tree/Huffman_Compression_DataStructure.h" />
 		<Unit filename="Binary_Tree/Huffman_Compression_run.cpp" />
-		<Unit filename="Binary_Tree/Kosaraju-Shamir-Tarjan.png" />
+		<Unit filename="Binary_Tree/Kosaraju_Sharir.cpp" />
+		<Unit filename="Binary_Tree/Kosaraju_Sharir.h" />
+		<Unit filename="Binary_Tree/Kosaraju_Sharir_run.cpp" />
 		<Unit filename="Binary_Tree/Tarjan.cpp" />
 		<Unit filename="Binary_Tree/Tarjan.h" />
+		<Unit filename="Binary_Tree/Tarjan.png" />
 		<Unit filename="Binary_Tree/Tarjan_run.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.h" />
