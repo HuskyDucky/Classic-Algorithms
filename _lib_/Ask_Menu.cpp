@@ -1,7 +1,7 @@
 /**
     File    : Ask_Menu.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.08            Version: 20190308.1
+    Created : 2019.03.08            Version: 20190308.2
 
     Construct a Menu based on Ask
 
@@ -26,7 +26,7 @@ Ask_Menu::Ask_Menu(const string& Question, ListOfOptQuest&& OptionFunction) : As
     Options.emplace_back("Exit");
 
     Ask::hastheAnswers(Options);
-    Ask::hastheBehavior(ASK::ANSWARE_BY_LETTERS);
+    Ask::hastheBehavior(ASK::ANSWARE_BY_LETTERS | ASK::NO_BRACKETS);
 }
 
 void Ask_Menu::Show() {
