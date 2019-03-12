@@ -1,7 +1,7 @@
 /**
     File    : Kruskal_SubSet.h
     Author  : Menashe Rosemberg
-    Created : 2019.03.01            Version: 20190301.1
+    Created : 2019.03.01            Version: 20190301.2
 
     Greedy - Minimum Spanning Tree - Kruskal SubSet
 
@@ -14,21 +14,15 @@
 #ifndef KRUSKAL_SUBSET_H
 #define KRUSKAL_SUBSET_H
 
-#include "Kruskal.h"
+#include <limits>
+#include <vector>
 
-#include <cstring>
+#include "Boruvka_Sollin_SubSet.h"
 
-struct Kruskal_SubSet {
+struct Kruskal_SubSet : private Boruvka_Sollin_SubSet {
        Kruskal_SubSet(VertexType NOfVertices);
-      ~Kruskal_SubSet();
 
       bool isNOTACycle(const Edge& edge);
-
-    private:
-        int32_t* subset;
-
-        int32_t InternalSearch(VertexType i);
-        void Union(int32_t v1, int32_t v2);
 };
 
 #endif // KRUSKAL_SUBSET_H

@@ -1,7 +1,7 @@
 /**
     File    : Kruskal.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.01            Version: 20190301.1
+    Created : 2019.03.01            Version: 20190301.2
 
     Greedy - Minimum Spanning Tree - Kruskal
 
@@ -20,9 +20,9 @@ ResultType Kruskal::ProcessKruskal() {
 
            Kruskal_SubSet subset(QOfVertices);
 
-           for (uint32_t IIt = 0; IIt < Edges.size(); ++IIt)
-               if (subset.isNOTACycle(Edges[IIt]))
-                  VertexList.emplace_back(Edges[IIt]);
+           for (uint32_t CurrEdge = 0; CurrEdge < Edges.size(); ++CurrEdge)
+               if (subset.isNOTACycle(Edges[CurrEdge]))
+                  MST.emplace_back(Edges[CurrEdge]);
 
-           return VertexList;
+           return MST;
 }

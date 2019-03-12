@@ -1,9 +1,9 @@
 /**
-    File    : Kruskal_run.cpp
+    File    : Boruvka_Sollin_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.01            Version: 20190301.2
+    Created : 2019.03.10            Version: 20190311.1
 
-    Greedy - Minimum Spanning Tree - Kruskal
+    Greedy - Minimum Spanning Tree - Boruvka_Sollin
 
     Menashe Rosemberg   Israel +972-52-323-0538
     Copyright(c) 2019      All rights reserved.
@@ -14,18 +14,17 @@
 #include <iostream>
 
 #include "../_lib_/_Lib_Edge.h"
-#include "Kruskal.h"
+#include "Boruvka_Sollin.h"
 
-void Run_Greedy_Kruskal() {
+void Run_Greedy_Boruvka_Sollin() {
 
-    cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Kruskal\n"
-         << "\n\nResult expected:"
+    cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Boruvka_Sollin\n"
          << "\n0 -> 3 Weight 5"
+         << "\n0 -> 1 Weight 7"
          << "\n2 -> 4 Weight 5"
          << "\n3 -> 5 Weight 6"
-         << "\n0 -> 1 Weight 7"
-         << "\n1 -> 4 Weight 7"
          << "\n4 -> 6 Weight 9"
+         << "\n1 -> 4 Weight 7"
          << "\n\nTotal Weight: 39"
          << "\n\nResult:\n";
 
@@ -43,9 +42,9 @@ void Run_Greedy_Kruskal() {
                               {5, 6, 11}
     };
 
-    Kruskal K(ListOfEdges);
+    Boruvka_Sollin BS(ListOfEdges);
 
-    ResultType Results = K.ProcessKruskal();
+    ResultType Results = BS.ProcessBoruvka_Sollin();
 
     WeightType Total_Weight = 0;
     for (auto& IIt : Results) {
