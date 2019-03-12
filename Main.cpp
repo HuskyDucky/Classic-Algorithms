@@ -24,6 +24,7 @@ void Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir();
 void Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();
 void Run_Greedy_Boruvka_Sollin();
 void Run_Greedy_Kruskal();
+void Run_Greedy_Prim();
 void Run_Greedy_Dijkastra();
 void Run_Graph_Floyd();
 void Run_Dynamic_Programming_Kadane();
@@ -44,6 +45,7 @@ int main() {
                     {"Graph - Minimum Spanning Tree - Floyd Warshall",               [](){ Run_Graph_Floyd();                                           }},
                     {"Graph - Greedy - Minimum Spanning Tree - Boruvka-Sollin",      [](){ Run_Greedy_Boruvka_Sollin();                                 }},
                     {"Graph - Greedy - Minimum Spanning Tree - Kruskal",             [](){ Run_Greedy_Kruskal();                                        }},
+                    {"Graph - Greedy - Minimum Spanning Tree - Prim",                [](){ Run_Greedy_Prim();                                           }},
                     {"Graph - Greedy - Minimum Spanning Tree - Dijkastra",           [](){ Run_Greedy_Dijkastra();                                      }},
                     {"Dynamic Programming- Kadane",                                  [](){ Run_Dynamic_Programming_Kadane();                            }},
                     {"Dynamic Programming- Knapsack 0 1",                            [](){ Run_Dynamic_Programming_Knapsack_0_1();                      }},

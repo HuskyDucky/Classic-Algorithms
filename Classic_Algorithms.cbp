@@ -63,8 +63,8 @@
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.h" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp" />
 		<Unit filename="Graphs/Boruvka_Sollin.cpp" />
-		<Unit filename="Graphs/Boruvka_Sollin.gif" />
 		<Unit filename="Graphs/Boruvka_Sollin.h" />
+		<Unit filename="Graphs/Boruvka_Sollin_Kruskal_Prim.gif" />
 		<Unit filename="Graphs/Boruvka_Sollin_SubSet.cpp" />
 		<Unit filename="Graphs/Boruvka_Sollin_SubSet.h" />
 		<Unit filename="Graphs/Boruvka_Sollin_run.cpp" />
@@ -81,8 +81,9 @@
 		<Unit filename="Graphs/Kruskal_SubSet.cpp" />
 		<Unit filename="Graphs/Kruskal_SubSet.h" />
 		<Unit filename="Graphs/Kruskal_run.cpp" />
-		<Unit filename="Graphs/Kruskal_test_0.jpg" />
-		<Unit filename="Graphs/Kruskal_test_1.jpg" />
+		<Unit filename="Graphs/Prim.cpp" />
+		<Unit filename="Graphs/Prim.h" />
+		<Unit filename="Graphs/Prim_run.cpp" />
 		<Unit filename="Main.cpp" />
 		<Unit filename="Others/Brent.cpp" />
 		<Unit filename="Others/Brent.h" />

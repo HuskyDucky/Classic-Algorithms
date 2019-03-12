@@ -144,7 +144,7 @@
 	<vector>
 	"Boruvka_Sollin_SubSet.h"
 
-1552386253 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
+1552387877 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
 	<iostream>
 	"../_lib_/_Lib_Edge.h"
 	"Kruskal.h"
@@ -152,7 +152,7 @@
 1552382996 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
 
-1552226806 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1552388092 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
 
@@ -226,7 +226,7 @@
 	<iostream>
 	"Kosaraju_Sharir.h"
 
-1552385919 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
+1552386518 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
 	"Boruvka_Sollin.h"
 
 1552382103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.h
@@ -236,7 +236,7 @@
 	"../_lib_/_Lib_QuantVertices.cpp"
 	"Boruvka_Sollin_SubSet.h"
 
-1552386253 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
+1552387669 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
 	<iostream>
 	"../_lib_/_Lib_Edge.h"
 	"Boruvka_Sollin.h"
@@ -248,4 +248,18 @@
 
 1552329673 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_SubSet.cpp
 	"Boruvka_Sollin_SubSet.h"
+
+1552395372 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim_run.cpp
+	<iostream>
+	"../_lib_/_Lib_Edge.h"
+	"Prim.h"
+
+1552395345 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.h
+	<vector>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
+
+1552396029 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.cpp
+	"Prim.h"
+	<iostream>
 
