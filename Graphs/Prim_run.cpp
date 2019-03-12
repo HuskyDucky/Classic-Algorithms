@@ -20,23 +20,23 @@ void Run_Greedy_Prim() {
 
     cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Prim\n"
          << "\n\nResult expected:"
-         << "\nB -> D Weight 1"
-         << "\nE -> F Weight 2"
-         << "\nD -> F Weight 3"
-         << "\nL -> J Weight 4"
-         << "\nG -> I Weight 5"
+         << "\nC -> B Weight 7"
          << "\nA -> C Weight 6"
-         << "\nB -> C Weight 7"
-         << "\nG -> K Weight 10"
-         << "\nK -> L Weight 12"
-         << "\nH -> G Weight 15"
+         << "\nB -> D Weight 1"
+         << "\nF -> E Weight 2"
+         << "\nD -> F Weight 3"
+         << "\nK -> G Weight 10"
+         << "\nG -> H Weight 15"
+         << "\nG -> I Weight 5"
          << "\nE -> J Weight 18"
+         << "\nL -> K Weight 12"
+         << "\nJ -> L Weight 4"
          << "\n\nTotal Weight: 83"
          << "\n\nResult:\n";
 
     enum Vx : VertexType {A, B, C, D, E, F, G, H, I, J, K, L};
 
-/*    vector<Edge> ListOfEdges {{A, B, 13},
+    vector<Edge> ListOfEdges {{A, B, 13},
                               {A, C, 6},
                               {B, C, 7},
                               {B, D, 1},
@@ -57,7 +57,7 @@ void Run_Greedy_Prim() {
                               {K, L, 12},
                               {L, J, 4}
     };
-*/
+
 /* Let us create the following graph
         2    3
     (0)--(1)--(2)
@@ -68,7 +68,7 @@ void Run_Greedy_Prim() {
           9
 */
 
-    vector<Edge> ListOfEdges {{0, 1, 2},
+/*    vector<Edge> ListOfEdges {{0, 1, 2},
                               {0, 3, 6},
                               {1, 3, 8},
                               {1, 4, 5},
@@ -76,7 +76,7 @@ void Run_Greedy_Prim() {
                               {2, 4, 7},
                               {3, 4, 9},
     };
-
+*/
 
     Prim Pm(ListOfEdges);
 
