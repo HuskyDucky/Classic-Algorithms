@@ -1,0 +1,93 @@
+/**
+    File    : Prim_run.cpp
+    Author  : Menashe Rosemberg
+    Created : 2019.03.12            Version: 20190312.1
+
+    Greedy - Minimum Spanning Tree - Prim (Dynamic Programming)
+
+    Menashe Rosemberg   Israel +972-52-323-0538
+    Copyright(c) 2019      All rights reserved.
+
+    Software distributed under the MIT License is distributed on an "AS IS" BASIS,
+    NO WARRANTIES OR CONDITIONS OF ANY KIND, explicit or implicit.
+**/
+#include <iostream>
+
+#include "../_lib_/_Lib_Edge.h"
+#include "Prim.h"
+
+void Run_Greedy_Prim() {
+
+    cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Prim\n"
+         << "\n\nResult expected:"
+         << "\nB -> D Weight 1"
+         << "\nE -> F Weight 2"
+         << "\nD -> F Weight 3"
+         << "\nL -> J Weight 4"
+         << "\nG -> I Weight 5"
+         << "\nA -> C Weight 6"
+         << "\nB -> C Weight 7"
+         << "\nG -> K Weight 10"
+         << "\nK -> L Weight 12"
+         << "\nH -> G Weight 15"
+         << "\nE -> J Weight 18"
+         << "\n\nTotal Weight: 83"
+         << "\n\nResult:\n";
+
+    enum Vx : VertexType {A, B, C, D, E, F, G, H, I, J, K, L};
+
+/*    vector<Edge> ListOfEdges {{A, B, 13},
+                              {A, C, 6},
+                              {B, C, 7},
+                              {B, D, 1},
+                              {C, D, 14},
+                              {C, E, 8},
+                              {D, E, 9},
+                              {D, F, 3},
+                              {C, H, 20},
+                              {E, F, 2},
+                              {E, J, 18},
+                              {H, G, 15},
+                              {H, J, 17},
+                              {G, I, 5},
+                              {G, J, 19},
+                              {G, K, 10},
+                              {K, J, 16},
+                              {I, K, 11},
+                              {K, L, 12},
+                              {L, J, 4}
+    };
+*/
+/* Let us create the following graph
+        2    3
+    (0)--(1)--(2)
+    |    / \   |
+   6|  8/   \5 |7
+    | /      \ |
+    (3)-------(4)
+          9
+*/
+
+    vector<Edge> ListOfEdges {{0, 1, 2},
+                              {0, 3, 6},
+                              {1, 3, 8},
+                              {1, 4, 5},
+                              {1, 2, 3},
+                              {2, 4, 7},
+                              {3, 4, 9},
+    };
+
+
+    Prim Pm(ListOfEdges);
+
+    ResultType Results = Pm.ProcessPrim();
+
+    WeightType Total_Weight = 0;
+    for (auto& IIt : Results) {
+        cout << static_cast<char>(65+IIt.Vertex_1()) << " -> "
+             << static_cast<char>(65+IIt.Vertex_2()) << " Weight: "
+             << IIt.Weight() << '\n';
+        Total_Weight += IIt.Weight();
+    }
+    cout << "\nTotal Weight: " << Total_Weight << '\n';
+}
