@@ -20,6 +20,7 @@ Boruvka_Sollin::Boruvka_Sollin(vector<Edge>& edges) : Edges(edges),
 
 ResultType Boruvka_Sollin::ProcessBoruvka_Sollin() {
            for (VertexType Trees = this->QOfVertices; Trees > 1; --Trees) {       //Guarantee that all Vertices will be connected
+               fill(Cheapest.begin(), Cheapest.end(), NOTSET) ;                   //Reset to next cycle;
                this->UpdateCheapest();
                this->AddCurrCheapest2MST();
             }

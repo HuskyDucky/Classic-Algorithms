@@ -29,28 +29,38 @@ void Run_Greedy_Kruskal() {
          << "\n\nTotal Weight: 39"
          << "\n\nResult:\n";
 
-                            // V1 V2 W
-    vector<Edge> ListOfEdges {{0, 1, 7},
-                              {0, 3, 5},
-                              {1, 2, 8},
-                              {1, 3, 9},
-                              {1, 4, 7},
-                              {2, 4, 5},
-                              {3, 4, 15},
-                              {3, 5, 6},
-                              {4, 5, 8},
-                              {4, 6, 9},
-                              {5, 6, 11}
+    enum Vx : VertexType {A, B, C, D, E, F, G, H, I, J, K, L};
+
+    vector<Edge> ListOfEdges {{A, B, 13},
+                              {A, C, 6},
+                              {B, C, 7},
+                              {B, D, 1},
+                              {C, D, 14},
+                              {C, E, 8},
+                              {D, E, 9},
+                              {D, F, 3},
+                              {C, H, 20},
+                              {E, F, 2},
+                              {E, J, 18},
+                              {H, G, 15},
+                              {H, J, 17},
+                              {G, I, 5},
+                              {G, J, 19},
+                              {G, K, 10},
+                              {K, J, 16},
+                              {I, K, 11},
+                              {K, L, 12},
+                              {L, J, 4}
     };
 
-    Kruskal K(ListOfEdges);
+    Kruskal Kl(ListOfEdges);
 
-    ResultType Results = K.ProcessKruskal();
+    ResultType Results = Kl.ProcessKruskal();
 
     WeightType Total_Weight = 0;
     for (auto& IIt : Results) {
-        cout << IIt.get().Vertex_1() << " -> "
-             << IIt.get().Vertex_2() << " Weight: "
+        cout << static_cast<char>(65+IIt.get().Vertex_1()) << " -> "
+             << static_cast<char>(65+IIt.get().Vertex_2()) << " Weight: "
              << IIt.get().Weight() << '\n';
         Total_Weight += IIt.get().Weight();
     }
