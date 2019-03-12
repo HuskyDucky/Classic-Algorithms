@@ -45,10 +45,10 @@
 		<Unit filename="Binary_Tree/Huffman_Compression_run.cpp" />
 		<Unit filename="Binary_Tree/Kosaraju_Sharir.cpp" />
 		<Unit filename="Binary_Tree/Kosaraju_Sharir.h" />
+		<Unit filename="Binary_Tree/Kosaraju_Sharir_Tarjan.png" />
 		<Unit filename="Binary_Tree/Kosaraju_Sharir_run.cpp" />
 		<Unit filename="Binary_Tree/Tarjan.cpp" />
 		<Unit filename="Binary_Tree/Tarjan.h" />
-		<Unit filename="Binary_Tree/Tarjan.png" />
 		<Unit filename="Binary_Tree/Tarjan_run.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.cpp" />
 		<Unit filename="Dynamic_Programming/Kadane.h" />
@@ -62,6 +62,12 @@
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.cpp" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic.h" />
 		<Unit filename="Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp" />
+		<Unit filename="Graphs/Boruvka_Sollin.cpp" />
+		<Unit filename="Graphs/Boruvka_Sollin.gif" />
+		<Unit filename="Graphs/Boruvka_Sollin.h" />
+		<Unit filename="Graphs/Boruvka_Sollin_SubSet.cpp" />
+		<Unit filename="Graphs/Boruvka_Sollin_SubSet.h" />
+		<Unit filename="Graphs/Boruvka_Sollin_run.cpp" />
 		<Unit filename="Graphs/Dijkastra.cpp" />
 		<Unit filename="Graphs/Dijkastra.h" />
 		<Unit filename="Graphs/Dijkastra_run.cpp" />

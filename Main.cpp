@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190309.2
+    Created : 2019.03.02            Version: 20190310.1
 
     Construct a simple question and wait the answer
 
@@ -22,6 +22,7 @@ void Run_BinaryTreeSearch_BFS();
 void Run_BinaryTreeSearch_DFS();
 void Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir();
 void Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();
+void Run_Greedy_Boruvka_Sollin();
 void Run_Greedy_Kruskal();
 void Run_Greedy_Dijkastra();
 void Run_Graph_Floyd();
@@ -41,6 +42,7 @@ int main() {
                     {"Binary Tree Search - DFS - Strong Connected - Kosaraju-Sharir",[](){ Run_BinaryTreeSearch_DFS_Strong_Connected_Kosaraju_Sharir(); }},
                     {"Binary Tree Search - DFS - Strong Connected - Tarjan",         [](){ Run_BinaryTreeSearch_DFS_Strong_Connected_Tarjan();          }},
                     {"Graph - Minimum Spanning Tree - Floyd Warshall",               [](){ Run_Graph_Floyd();                                           }},
+                    {"Graph - Greedy - Minimum Spanning Tree - Boruvka-Sollin",      [](){ Run_Greedy_Boruvka_Sollin();                                 }},
                     {"Graph - Greedy - Minimum Spanning Tree - Kruskal",             [](){ Run_Greedy_Kruskal();                                        }},
                     {"Graph - Greedy - Minimum Spanning Tree - Dijkastra",           [](){ Run_Greedy_Dijkastra();                                      }},
                     {"Dynamic Programming- Kadane",                                  [](){ Run_Dynamic_Programming_Kadane();                            }},

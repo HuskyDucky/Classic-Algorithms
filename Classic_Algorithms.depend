@@ -10,10 +10,10 @@
 	<vector>
 	"_Lib_Edge.h"
 
-1552123067 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.cpp
+1552236551 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.cpp
 	"Ask.h"
 
-1552123067 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.h
+1552236629 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask.h
 	<vector>
 	<string>
 	<sstream>
@@ -100,10 +100,10 @@
 1552206856 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Dynamic_Programming/LongestSubsequence_Palindromic_run.cpp
 	"LongestSubsequence_Palindromic.h"
 
-1552206779 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
+1552382620 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.cpp
 	"Dijkastra.h"
 
-1552206779 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
+1552382639 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Dijkastra.h
 	<list>
 	<queue>
 	<vector>
@@ -129,29 +129,30 @@
 	"Floyd.h"
 	<vector>
 
-1552206729 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
+1552382018 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.cpp
 	"Kruskal.h"
 
-1552206729 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
+1552382005 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal.h
 	<vector>
 	<functional>
 	"../_lib_/_Lib_Edge.h"
 	"../_lib_/_Lib_QuantVertices.cpp"
 	"Kruskal_SubSet.h"
 
-1552206729 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.h
-	"Kruskal.h"
-	<cstring>
+1552382925 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.h
+	<limits>
+	<vector>
+	"Boruvka_Sollin_SubSet.h"
 
-1552206729 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
+1552379232 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
 	<iostream>
 	"../_lib_/_Lib_Edge.h"
 	"Kruskal.h"
 
-1552206729 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
+1552382996 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_SubSet.cpp
 	"Kruskal_SubSet.h"
 
-1552206156 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
+1552226806 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Main.cpp
 	<vector>
 	"_lib_/Ask_Menu.h"
 
@@ -207,7 +208,7 @@
 	<iostream>
 	"Tarjan.h"
 
-1552123067 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask_Menu.cpp
+1552236863 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask_Menu.cpp
 	"Ask_Menu.h"
 
 1552123067 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/_lib_/Ask_Menu.h
@@ -224,4 +225,27 @@
 1552219617 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Binary_Tree/Kosaraju_Sharir_run.cpp
 	<iostream>
 	"Kosaraju_Sharir.h"
+
+1552382833 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
+	"Boruvka_Sollin.h"
+
+1552382103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.h
+	<vector>
+	<functional>
+	"../_lib_/_Lib_Edge.h"
+	"../_lib_/_Lib_QuantVertices.cpp"
+	"Boruvka_Sollin_SubSet.h"
+
+1552383113 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
+	<iostream>
+	"../_lib_/_Lib_Edge.h"
+	"Boruvka_Sollin.h"
+
+1552382756 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_SubSet.h
+	<limits>
+	<vector>
+	"../_lib_/_Lib_Edge.h"
+
+1552329673 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_SubSet.cpp
+	"Boruvka_Sollin_SubSet.h"
 
