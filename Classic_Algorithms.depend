@@ -144,7 +144,7 @@
 	<vector>
 	"Boruvka_Sollin_SubSet.h"
 
-1552379232 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
+1552386253 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Kruskal_run.cpp
 	<iostream>
 	"../_lib_/_Lib_Edge.h"
 	"Kruskal.h"
@@ -226,7 +226,7 @@
 	<iostream>
 	"Kosaraju_Sharir.h"
 
-1552382833 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
+1552385919 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.cpp
 	"Boruvka_Sollin.h"
 
 1552382103 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin.h
@@ -236,7 +236,7 @@
 	"../_lib_/_Lib_QuantVertices.cpp"
 	"Boruvka_Sollin_SubSet.h"
 
-1552383113 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
+1552386253 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Boruvka_Sollin_run.cpp
 	<iostream>
 	"../_lib_/_Lib_Edge.h"
 	"Boruvka_Sollin.h"
