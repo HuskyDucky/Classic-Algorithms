@@ -20,13 +20,18 @@ void Run_Greedy_Kruskal() {
 
     cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Kruskal\n"
          << "\n\nResult expected:"
-         << "\n0 -> 3 Weight 5"
-         << "\n2 -> 4 Weight 5"
-         << "\n3 -> 5 Weight 6"
-         << "\n0 -> 1 Weight 7"
-         << "\n1 -> 4 Weight 7"
-         << "\n4 -> 6 Weight 9"
-         << "\n\nTotal Weight: 39"
+         << "\nB -> D Weight 1"
+         << "\nE -> F Weight 2"
+         << "\nD -> F Weight 3"
+         << "\nL -> J Weight 4"
+         << "\nG -> I Weight 5"
+         << "\nA -> C Weight 6"
+         << "\nB -> C Weight 7"
+         << "\nG -> K Weight 10"
+         << "\nK -> L Weight 12"
+         << "\nH -> G Weight 15"
+         << "\nE -> J Weight 18"
+         << "\n\nTotal Weight: 83"
          << "\n\nResult:\n";
 
     enum Vx : VertexType {A, B, C, D, E, F, G, H, I, J, K, L};

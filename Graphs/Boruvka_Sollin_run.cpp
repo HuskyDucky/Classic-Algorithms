@@ -19,13 +19,18 @@
 void Run_Greedy_Boruvka_Sollin() {
 
     cout << "\n\t\t\t\tGreedy - Minimal Spanning Tree - Boruvka_Sollin\n"
-         << "\n0 -> 3 Weight 5"
-         << "\n0 -> 1 Weight 7"
-         << "\n2 -> 4 Weight 5"
-         << "\n3 -> 5 Weight 6"
-         << "\n4 -> 6 Weight 9"
-         << "\n1 -> 4 Weight 7"
-         << "\n\nTotal Weight: 39"
+         << "\nA -> C Weight 6"
+         << "\nB -> D Weight 1"
+         << "\nE -> F Weight 2"
+         << "\nG -> I Weight 5"
+         << "\nH -> G Weight 15"
+         << "\nL -> J Weight 4"
+         << "\nG -> K Weight 10"
+         << "\nB -> C Weight 7"
+         << "\nD -> F Weight 3"
+         << "\nK -> L Weight 12"
+         << "\nJ -> J Weight 18"
+         << "\n\nTotal Weight: 83"
          << "\n\nResult:\n";
 
     enum Vx : VertexType {A, B, C, D, E, F, G, H, I, J, K, L};
