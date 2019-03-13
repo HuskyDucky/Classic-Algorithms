@@ -34,8 +34,8 @@ void Run_Dynamic_Programming_LPS();
 
 int main() {
 
-    ListOfOptQuest Options
-                    {{"Linked List - Cycle_Detection",                               [](){ Run_Cycle_Detection_in_Linked_List();                        }},
+    ListOfAnswers Options
+                   {{"Linked List - Cycle_Detection",                               [](){ Run_Cycle_Detection_in_Linked_List();                         }},
                     {"Linked List - Cycle_Detection - Brent",                        [](){ Run_Cycle_Detection_in_Linked_List_Brent();                  }},
                     {"Binary Tree - Compression - Huffman",                          [](){ Run_BinaryTree_Compression_Huffman();                        }},
                     {"Binary Tree Search - BFS",                                     [](){ Run_BinaryTreeSearch_BFS();                                  }},
