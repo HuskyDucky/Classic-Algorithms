@@ -17,10 +17,10 @@
 
 #include "Ask.h"
 
-using ListOfOptQuest = vector<pair<string, function<void()>>>;
+using ListOfAnswers = vector<pair<string, function<void()>>>;
 
 struct Ask_Menu : protected Ask {
-       Ask_Menu(const string& Question, ListOfOptQuest&& OptionFunction);
+       Ask_Menu(const string& Question, ListOfAnswers&& OptionFunction);
 
     void Show();
 

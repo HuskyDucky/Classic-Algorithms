@@ -1,7 +1,7 @@
 /**
     File    : Ask_Menu.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.08            Version: 20190308.2
+    Created : 2019.03.08            Version: 20190308.3
 
     Construct a Menu based on Ask
 
@@ -13,7 +13,7 @@
 **/
 #include "Ask_Menu.h"
 
-Ask_Menu::Ask_Menu(const string& Question, ListOfOptQuest&& OptionFunction) : Ask(Question) {
+Ask_Menu::Ask_Menu(const string& Question, ListOfAnswers&& OptionFunction) : Ask(Question) {
 
     vector<string> Options; Options.reserve(OptionFunction.size());
     this->Func.reserve(OptionFunction.size());
