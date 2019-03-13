@@ -1,7 +1,7 @@
 /**
     File    : Prim_run.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.12            Version: 20190312.1
+    Created : 2019.03.12            Version: 20190312.2
 
     Greedy - Minimum Spanning Tree - Prim (Dynamic Programming)
 
@@ -57,26 +57,6 @@ void Run_Greedy_Prim() {
                               {K, L, 12},
                               {L, J, 4}
     };
-
-/* Let us create the following graph
-        2    3
-    (0)--(1)--(2)
-    |    / \   |
-   6|  8/   \5 |7
-    | /      \ |
-    (3)-------(4)
-          9
-*/
-
-/*    vector<Edge> ListOfEdges {{0, 1, 2},
-                              {0, 3, 6},
-                              {1, 3, 8},
-                              {1, 4, 5},
-                              {1, 2, 3},
-                              {2, 4, 7},
-                              {3, 4, 9},
-    };
-*/
 
     Prim Pm(ListOfEdges);
 
