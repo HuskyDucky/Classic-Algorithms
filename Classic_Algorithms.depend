@@ -254,12 +254,11 @@
 	"../_lib_/_Lib_Edge.h"
 	"Prim.h"
 
-1552395345 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.h
+1552396245 /home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.h
 	<vector>
 	"../_lib_/_Lib_Edge.h"
 	"../_lib_/_Lib_QuantVertices.cpp"
 
-1552396029 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.cpp
+1552396245 source:/home/administrator/Desktop/C++_Projects/1_Algorithms/Classic Algorithms/Graphs/Prim.cpp
 	"Prim.h"
-	<iostream>
 

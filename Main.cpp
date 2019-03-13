@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190310.1
+    Created : 2019.03.02            Version: 20190310.2
 
     Construct a simple question and wait the answer
 
@@ -53,7 +53,7 @@ int main() {
                     {"Dynamic Programming- Longest Palindromic Subsequence",         [](){ Run_Dynamic_Programming_LPS();                               }}
     } ;
 
-    Ask_Menu TheQuestion("\n\nChoose the Algorithm you are leaning:\n", move(Options));
+    Ask_Menu TheQuestion("\n\nChoose the Algorithm you are learning:\n", move(Options));
     TheQuestion.Show();
 
     return 0;
