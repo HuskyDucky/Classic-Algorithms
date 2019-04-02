@@ -1,5 +1,8 @@
 # Classic-Algorithms
 
+Maze:
+MazeRunner (Check unreachable place in a maze)
+
 Cycle Detection on Graphs: 
 (isCyclic algortithm), 
 Brend
