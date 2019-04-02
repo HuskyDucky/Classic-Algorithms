@@ -1,7 +1,7 @@
 /**
     File    : Main.cpp
     Author  : Menashe Rosemberg
-    Created : 2019.03.02            Version: 20190310.2
+    Created : 2019.03.02            Version: 20190310.3
 
     Construct a simple question and wait the answer
 
@@ -15,6 +15,7 @@
 #include <vector>
 #include "_lib_/Ask_Menu.h"
 
+void Run_MazeRunner();
 void Run_Cycle_Detection_in_Linked_List();
 void Run_Cycle_Detection_in_Linked_List_Brent();
 void Run_BinaryTree_Compression_Huffman();
@@ -35,7 +36,8 @@ void Run_Dynamic_Programming_LPS();
 int main() {
 
     ListOfAnswers Options
-                   {{"Linked List - Cycle_Detection",                               [](){ Run_Cycle_Detection_in_Linked_List();                         }},
+                   {{"Maze Runner - Detect if the maze has a unreachable place",     [](){ Run_MazeRunner();                                            }},
+                    {"Linked List - Cycle_Detection",                                [](){ Run_Cycle_Detection_in_Linked_List();                        }},
                     {"Linked List - Cycle_Detection - Brent",                        [](){ Run_Cycle_Detection_in_Linked_List_Brent();                  }},
                     {"Binary Tree - Compression - Huffman",                          [](){ Run_BinaryTree_Compression_Huffman();                        }},
                     {"Binary Tree Search - BFS",                                     [](){ Run_BinaryTreeSearch_BFS();                                  }},

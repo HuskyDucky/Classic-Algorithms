@@ -91,6 +91,12 @@
 		<Unit filename="Others/CycleDetection.cpp" />
 		<Unit filename="Others/CycleDetection.h" />
 		<Unit filename="Others/CycleDetection_run.cpp" />
+		<Unit filename="Others/MazeRunner/MazeRunner.cpp" />
+		<Unit filename="Others/MazeRunner/MazeRunner.h" />
+		<Unit filename="Others/MazeRunner/MazeRunner_Running.cpp" />
+		<Unit filename="Others/MazeRunner/MazeRunner_Running.h" />
+		<Unit filename="Others/MazeRunner/MazeRunner_Running_Show.cpp" />
+		<Unit filename="Others/MazeRunner/MazeRunner_Running_Show.h" />
 		<Unit filename="_lib_/Ask.cpp" />
 		<Unit filename="_lib_/Ask.h" />
 		<Unit filename="_lib_/Ask_Menu.cpp" />
