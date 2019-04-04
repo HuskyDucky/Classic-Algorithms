@@ -81,6 +81,12 @@
 		<Unit filename="Graphs/Kruskal_SubSet.cpp" />
 		<Unit filename="Graphs/Kruskal_SubSet.h" />
 		<Unit filename="Graphs/Kruskal_run.cpp" />
+		<Unit filename="Graphs/MazeRunner.cpp" />
+		<Unit filename="Graphs/MazeRunner.h" />
+		<Unit filename="Graphs/MazeRunner_Running.cpp" />
+		<Unit filename="Graphs/MazeRunner_Running.h" />
+		<Unit filename="Graphs/MazeRunner_Running_Show.cpp" />
+		<Unit filename="Graphs/MazeRunner_Running_Show.h" />
 		<Unit filename="Graphs/Prim.cpp" />
 		<Unit filename="Graphs/Prim.h" />
 		<Unit filename="Graphs/Prim_run.cpp" />
@@ -91,12 +97,6 @@
 		<Unit filename="Others/CycleDetection.cpp" />
 		<Unit filename="Others/CycleDetection.h" />
 		<Unit filename="Others/CycleDetection_run.cpp" />
-		<Unit filename="Others/MazeRunner/MazeRunner.cpp" />
-		<Unit filename="Others/MazeRunner/MazeRunner.h" />
-		<Unit filename="Others/MazeRunner/MazeRunner_Running.cpp" />
-		<Unit filename="Others/MazeRunner/MazeRunner_Running.h" />
-		<Unit filename="Others/MazeRunner/MazeRunner_Running_Show.cpp" />
-		<Unit filename="Others/MazeRunner/MazeRunner_Running_Show.h" />
 		<Unit filename="_lib_/Ask.cpp" />
 		<Unit filename="_lib_/Ask.h" />
 		<Unit filename="_lib_/Ask_Menu.cpp" />
